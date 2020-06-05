@@ -1,0 +1,34 @@
+---
+layout: default
+title: Build your own O-FISH instance
+---
+	<h1>{{ page.title }}</h1>
+
+<h2>Throughout this guide, you will be filling in and using this information. 
+
+The first step is to copy and paste the template below into a scratch pad.<BR><BR></H2>
+
+TEMPLATE:<BR>
+Project Name:<BR>
+Atlas Cluster Name:<BR>
+Atlas Cluster Admin username:<BR>
+Atlas Cluster Admin password:<BR>
+Path to sample data:<BR>
+Path to Realm code:<BR>
+Atlas Cluster connection string:<BR>
+Realm App name:<BR>
+Realm App ID:<BR>
+API Public Key:<BR>
+API Private Key: <BR>
+App Admin username:<BR>
+App Admin password:<BR>
+Realm User ID:<BR>
+URL:<BR>
+
+	<ul class="posts">
+Let's build!
+{% assign sortedPosts = site.posts | reverse %}
+	  {% for post in sortedPosts | reverse %}
+	    <li><span>» <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+	</ul>

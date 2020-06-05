@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>0. Atlas Database</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		</head>
+		<body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+	        		<li><a href="/build">Build</a></li>
+	    		</ul>
+			</nav>
+			<div class="container">
+			
+			<h1>0. Atlas Database</h1>
+<!-- <p class="meta">09 May 2020</p> -->
+
+<div class="post">
+  <p>The first step is to set up the Atlas database - this is the foundation data layer that serve data to the mobile apps, charts, and web apps.</p>
+
+<ol>
+  <li>Login to <a href="https://cloud.mongodb.com" target="_blank">cloud.mongodb.com</a> - create a free login if needed.<br /><br /></li>
+  <li>If needed, create an organization (example: Code For Good). <br /><br /></li>
+  <li>Create a project (example: WildAid). Fill in the “Project Name” on the <a href="/build">template</a> that you copied to your scratchpad. Case sensitivity matters!<br /><br /></li>
+  <li>Click Access Manager, then Organization Access:
+<img src="/assets/images/Atlas_Project_Access.png" style="border:1px solid black" width="100%" /><br /><br />
+    <ol>
+      <li>Click the EDIT PERMISSIONS button next to your name.</li>
+      <li>Give yourself the following permissions:<br /> Organization Owner, Organization Project Creator, Organization Billing Admin, Organization Member<br />
+and click the green checkmark.<br /><br />
+<img src="/assets/images/Atlas_Access_Permissions.png" style="border:1px solid black" width="100%" /><br /><br /></li>
+    </ol>
+  </li>
+  <li>Create a 4.4 Cluster:
+    <ol>
+      <li>Click “Projects”</li>
+      <li>Click your project name (example: WildAid)</li>
+      <li>Click Build a Cluster</li>
+      <li>Choose a path - choose the FREE Shared Clusters on the left: 
+<img src="/assets/images/Atlas_Choose_Path.png" style="border:1px solid black" width="100%" /><br /><br /></li>
+      <li>Choose Cloud Provider and Region
+<img src="/assets/images/Atlas_Cloud_Region.png" style="border:1px solid black" width="100%" /><br /><br /></li>
+      <li>Choose Cluster Tier - choose M0, the free tier
+<img src="/assets/images/Atlas_Tier.png" style="border:1px solid black" width="100%" /><br /><br /></li>
+      <li>Select a Version - MongoDB 4.4
+<img src="/assets/images/Atlas_Version.png" style="border:1px solid black" width="100%" /><br /><br /></li>
+      <li>Cluster Name (example: OFISH) - write this in template under “Atlas Cluster Name” 
+<img src="/assets/images/Atlas_Cluster_Name.png" style="border:1px solid black" width="100%" /><br /><br /></li>
+      <li>Click “Create Cluster” - this will take a few minutes <br /><br /></li>
+    </ol>
+  </li>
+</ol>
+
+<p>Congratulations, you have set up an Atlas database!</p>
+
+</div>
+
+<div class="PageNavigation">
+   
+  
+    { <a class="next" href="/build/2020/05/09/Atlas-Database-config.html">1. Atlas Database Configuration &raquo;</a> }
+  
+</div>
+
+
+
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="https://mongodb.com/" target="_blank">MongoDB</a></li>
+				</ul>
+			</footer>
+		</body>
+	</html>
