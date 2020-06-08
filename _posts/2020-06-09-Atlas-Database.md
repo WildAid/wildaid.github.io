@@ -18,7 +18,8 @@ and click the green checkmark.<BR><BR>
 <img src="/assets/images/Atlas_Access_Permissions.png" style="border:1px solid black" width="100%"><BR><BR>
 
 1. Create a 4.4 Cluster:
-   1. Click "Projects"
+   1. Click "Projects" on the left-hand navigation menu<BR>
+<img src="/assets/images/Projects.png" style="border:1px solid black" width="50%"><BR><BR>
    1. Click your project name (example: WildAid)
    1. Click Build a Cluster
    1. Choose a path - choose the FREE Shared Clusters on the left: 

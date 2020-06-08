@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<html>
 		<head>
-			<title>5. Setup stitch-cli</title>
+			<title>5. Setup the commandline interface to import the Realm app code</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 			<meta charset="UTF-8">
@@ -16,25 +16,25 @@
 			</nav>
 			<div class="container">
 			
-			<h1>5. Setup stitch-cli</h1>
+			<h1>5. Setup the commandline interface to import the Realm app code</h1>
 <!-- <p class="meta">09 May 2020</p> -->
 
 <div class="post">
-  <ol>
+  <p>The commandline interface to import the Realm app code is called “stitch-cli”. We will set this up in this step, then import all the Realm code in the next step.</p>
+
+<ol>
   <li>stitch-cli setup
     <ol>
-      <li>Install stitch-cli - follow the instructions for manual install or <code class="highlighter-rouge">npm</code> install at <a href="https://docs.mongodb.com/stitch/deploy/stitch-cli-reference/" _target="blank">https://docs.mongodb.com/stitch/deploy/stitch-cli-reference</a><br /><br /></li>
+      <li>Install stitch-cli - follow the instructions for manual install or <code class="highlighter-rouge">npm</code> install at <a href="https://docs.mongodb.com/stitch/deploy/stitch-cli-reference/" target="_blank">https://docs.mongodb.com/stitch/deploy/stitch-cli-reference</a><br /><br /></li>
       <li>Connect your commandline with Realm using <code class="highlighter-rouge">stitch-cli login</code> and the values from the template for “API Public Key” and “API Private Key”:<br />
         <ul>
           <li><code class="highlighter-rouge">stitch-cli login --api-key="API_Public_Key" --private-api-key="API_Private_Key"</code><br /><br />
-cloud-dev users add <code class="highlighter-rouge">--base-url=https://realm-dev.mongodb.com</code><br /><br />
 It has worked when the output is <br /><code class="highlighter-rouge">you have successfully logged in as PUBLIC_API_KEY</code><br /><br /></li>
         </ul>
       </li>
-      <li>Use stitch-cli to add a secret called “AWS-secret-key”. If you are connecting your instance with an external AWS environment, add your AWS secret key as the <code class="highlighter-rouge">--value</code> in this command. If you are NOT connecting your instance with AWS, you STILL need to run this command but <code class="highlighter-rouge">--value</code> can be set to any string. 
+      <li>Use stitch-cli to add a secret called “AWS-secret-key”. If you are connecting your instance with an external AWS environment, add your AWS secret key as the <code class="highlighter-rouge">--value</code> in this command. If you are NOT connecting your instance with AWS, you STILL need to run this command but <code class="highlighter-rouge">--value</code> can be set to any string. <br />
 You will put your Realm App ID from the template as the value of –app-id:<br />
-<code class="highlighter-rouge">stitch-cli secrets add --app-id=wildaidapp-xxxxx --name=AWS-secret-key --value=my-aws-secret-api-key</code><br /><br />
-cloud-dev users add <code class="highlighter-rouge">--base-url=https://realm-dev.mongodb.com</code><br /><br />
+<code class="highlighter-rouge">stitch-cli secrets add --name=AWS-secret-key --value=my-aws-secret-api-key --app-id=REALM_APP_ID</code><br /><br />
 It works when the output is <br /><code class="highlighter-rouge">New secret created: AWS-secret-key</code><br /><br /></li>
     </ol>
   </li>
@@ -46,7 +46,7 @@ It works when the output is <br /><code class="highlighter-rouge">New secret cre
 
 <div class="PageNavigation">
   
-    { <a class="prev" href="/build/2020/05/09/Realm-API-Key.html">&laquo; 4. Realm App Install and Import</a> }
+    { <a class="prev" href="/build/2020/05/09/Realm-API-Key.html">&laquo; 4. Realm API Key Generation</a> }
    
   
     { <a class="next" href="/build/2020/05/09/Import-Realm-Code.html">6. Import Realm Code &raquo;</a> }

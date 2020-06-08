@@ -25,18 +25,21 @@
 <ol>
   <li>Get the sample data
     <ol>
-      <li>Get the code from <a href="https://github.com/WildAid/o-fish-realm">https://github.com/WildAid/o-fish-realm</a><br />
-<code class="highlighter-rouge">git clone https://github.com/WildAid/o-fish-realm.git</code><br /><br />
-For now, download and extract <a href="/assets/files/CodeForGoodDataSet.tar.gz">CodeForGoodDataSet.tar.gz</a>.<br /><br /></li>
-      <li>Go into the o-fish-realm directory:<br />
-<code class="highlighter-rouge">cd o-fish-realm</code><br /><br /></li>
-      <li>Note the path to the directory CodeForGoodbackup, which contains a directory called “wildaid”. Put it in the “Path to sample data” section of the template.<br /><br /></li>
-      <li>Note the path to the directory WildAidDemo,and put it in the “Path to Realm code” section of the template.<br /><br /></li>
+      <li>Get the code from <a href="https://github.com/WildAid/o-fish-realm" target="_blank">https://github.com/WildAid/o-fish-realm</a><br />
+<code class="highlighter-rouge">git clone https://github.com/WildAid/o-fish-realm.git</code><br />OR<br /><a href="https://github.com/WildAid/o-fish-realm/archive/master.zip">Download and extract the code</a><br /><br /></li>
+      <li>
+        <p>Go into the o-fish-realm directory, “o-fish-realm” if you did a git clone in the previous step, or “o-fish-realm-master” if you downloaded and extracted the code. The directory should have 4 items in it:<br />
+<code class="highlighter-rouge">LICENSE README.md WildAidDemo dump</code><br /></p>
+      </li>
+      <li>Note the path to the directory CodeForGoodBackup. Put it in the “Path to sample data” section of the template. <br />
+Example: <code class="highlighter-rouge">/Users/sheeri/o-fish-realm/CodeForGoodBackup</code><br /><br /></li>
+      <li>Note the path to the directory WildAidDemo, and put it in the “Path to Realm code” section of the template.<br />
+Example: <code class="highlighter-rouge">/Users/sheeri/o-fish-realm/WildAidDemo</code><br /><br /></li>
     </ol>
   </li>
   <li>Get connection string
     <ol>
-      <li>Click CONNECT in the cluster itself (or as previously on the “all clusters” page for the project):
+      <li>Click CONNECT in the cluster itself (or as previously on the view that shows you all the clusters for the project):
 <img src="/assets/images/CONNECT.png" style="border:1px solid black" width="100%" /><br /><br /></li>
       <li>Click on Connect using MongoDB Shell, then “I have the mongo shell installed “
 <img src="/assets/images/Click_Already_Have.png" style="border:1px solid black" width="100%" /><br /><br /></li>
@@ -46,11 +49,13 @@ For now, download and extract <a href="/assets/files/CodeForGoodDataSet.tar.gz">
       <li>Paste the connection string into the “Atlas Cluster connection string” in your template.<br /><br /></li>
     </ol>
   </li>
-  <li>In a terminal window, use the mongorestore utility to import the data you got in the first step. use the <code class="highlighter-rouge">mongorestore</code> utility and the “Path to sample data”, and the “Atlas Cluster connection string”. Modify the connection string - just after <code class="highlighter-rouge">mongodb+srv://</code> you should put in the “Atlas Cluster Admin username” from the template, followed by @ and then the rest of the mongodb+srv link - so it looks something like this:<br />
+  <li>In a terminal window, use the mongorestore utility to import the data you got in the first step. use the <code class="highlighter-rouge">mongorestore</code> utility and the “Path to sample data”, and the “Atlas Cluster connection string”. Modify the connection string - just after <code class="highlighter-rouge">mongodb+srv://</code> you should put in the “Atlas Cluster Admin username” from the template, followed by @ and then the rest of the mongodb+srv link. The whole string, replace what’s in all capital letters:<br />
     <ul>
-      <li><code class="highlighter-rouge">mongorestore --drop --uri "mongodb+srv://admin@oceanwatchdata-xxxxx.mongodb.net/test" /PATH/TO/CodeForGoodbackup</code><br />
+      <li><code class="highlighter-rouge">mongorestore --drop --uri "mongodb+srv://USERNAME@REST_OF_CONNECTION_STRING" PATH_TO_BACKUP</code><br />
+Example:<br /></li>
+      <li><code class="highlighter-rouge">mongorestore --drop --uri "mongodb+srv://admin@ofish-xxxxx.mongodb.net/" /Users/sheeri/wildaid_demo/o-fish-realm/CodeForGoodBackup</code><br />
 When it is successful, you will see a message like:<br />
-<code class="highlighter-rouge">17542 document(s) restored successfully. 0 document(s) failed to restore.</code><br /><br /></li>
+<code class="highlighter-rouge">6117 document(s) restored successfully. 0 document(s) failed to restore.</code><br /><br /></li>
     </ul>
   </li>
   <li>Verify with Data Explorer
@@ -61,7 +66,7 @@ When it is successful, you will see a message like:<br />
       </li>
       <li>
         <p>Click on the BoardingReports collection and verify there are records: 
-<img src="/assets/images/Verify_data.png" style="border:1px solid black" width="100%" /><br /><br /></p>
+<img src="/assets/images/Verify_data.png" style="border:1px solid black" width="75%" /><br /><br /></p>
       </li>
     </ol>
   </li>
