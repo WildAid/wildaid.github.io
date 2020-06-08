@@ -5,15 +5,16 @@ date: 2020-05-09 10:00:00 -0400
 categories: build
 ---
 
-1. Go to your website with the URL from the template<BR>
-1. Login with your "App Admin username" and "App Admin password"<BR>
+1. Go to your website with the URL from the template<BR><BR>
+1. Login with your "App Admin username" and "App Admin password"<BR><BR>
 1. If you can’t login, check:<BR>
- Fields in src/.env/config.js<BR>
+ Fields in src/config.js<BR>
+ The Atlas Search index completed its build<BR>
  The Realm user was created in the Realm<BR>
- The Realm user is in a document the wildaid.User collection and the Realm ID is correct<BR>
+ The Realm user is in a document the wildaid.User collection and the Realm ID is correct<BR><BR>
 1. Charts won’t work, this is expected<BR>
 <img src="/assets/images/Charts_Not_Working.png" style="border:1px solid black" width="100%"><BR><BR>
-1. Search for “Mia” and you should see highlighting, click "See all results for mia"<BR>
+1. Search for “Mia” and you should see some results with fuzzy matching. Click "See all results for mia".<BR>
 <img src="/assets/images/Search_Mia.png" style="border:1px solid black" width="100%"><BR><BR>
 1. Click "see all results" for "Boardings"
 <img src="/assets/images/Search_Results.png" style="border:1px solid black" width="100%"><BR><BR>
@@ -25,11 +26,11 @@ categories: build
 
 Huzzah! Your web application connects to your Realm data!
 
-From here, you can:<BR><BR>
+From here, you can (coming soon):<BR><BR>
 
 Build the Android app<BR><BR>
 Build the iOS app<BR><BR>
 Look into the functions and triggers<BR><BR>
-Put Charts into the web interface<BR><BR>
+Create Charts and add them into the web interface<BR><BR>
 
 
