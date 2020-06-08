@@ -40,6 +40,6 @@ Example:<BR>
 <img src="/assets/images/Atlas_Data_Explorer.png" style="border:1px solid black" width="100%"><BR><BR>
 
    1. Click on the BoardingReports collection and verify there are records: 
-<img src="/assets/images/Verify_data.png" style="border:1px solid black" width="75%"><BR><BR>
+<img src="/assets/images/Verify_Data.png" style="border:1px solid black" width="75%"><BR><BR>
 
 Great work, now you're ready to hook up Realm...
