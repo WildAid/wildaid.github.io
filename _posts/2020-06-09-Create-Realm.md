@@ -14,7 +14,7 @@ Now that you've populated your Atlas database, this page will walk you through c
 <img src="/assets/images/Skip.png" style="border:1px solid black" width="70%"><BR><BR>
    1. Configure Realm: Give the Realm App a name and link your cluster, then click "Create Realm Application". Paste this name the Realm App name into the template (example: WildAidApp).
 <img src="/assets/images/Realm_Config.png" style="border:1px solid black" width="100%"><BR><BR>
-   1. In the top left of your screen, use the "copy" icon to copy the Realm App ID, and paste into the template as "Realm App ID". The top left of the screen looks like this:
+   1. In the top left of your screen, use the "copy" icon to copy the Realm App ID, and paste into the template as "Realm App ID". Example Realm App ID: "wildaidapp-abcde". The top left of the screen looks like this:
 <img src="/assets/images/Copy_Realm_App_ID.png" style="border:1px solid black" width="100%"><BR><BR>
 
 
