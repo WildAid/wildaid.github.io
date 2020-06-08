@@ -12,10 +12,11 @@ Now it's time to put your Realm app into Development mode so deploying the web a
 1. Fill in the appropriate information - Select the cluster name with RealmSync modifier, the database is "wildaid", the partition key is "agency" and if prompted the field type is "string". Click "Turn Dev Mode On":
         <img src="/assets/images/Dev_Mode_On.png" style="border:1px solid black" width="100%"><BR><BR>
 
-1. Click "Review and Deploy" in the blue bar on the top, and then deploy the changes:
+1. Click "OK" that Development Mode is on. <BR><BR>
+1. Despite other indications, development mode is not really on until you click "Review and Deploy" in the blue bar on the top, and then deploy the changes:
         <img src="/assets/images/Review_Deploy.png" style="border:1px solid black" width="100%"><BR><BR>
 
-1.  Add fulltext search index - go to the Atlas UI for the cluster and click on the "Collections" tab. Click on the "BoardingReports" collection.
+1.  Add fulltext search index - go to the Atlas UI for the cluster and click on "Collections". Click on the "wildaid" database, then the "BoardingReports" collection.
         <img src="/assets/images/BR_Collection.png" style="border:1px solid black" width="100%"><BR><BR>
 1. Click on the "Search" tab, and then "Create Search Index":
         <img src="/assets/images/Search_Index.png" style="border:1px solid black" width="100%"><BR><BR>

@@ -9,7 +9,7 @@ Build the web app:
 1. Get the code<BR>
    1.  Get the code from <A HREF="https://github.com/WildAid/o-fish-web">https://github.com/WildAid/o-fish-web</A><BR>
    `git clone https://github.com/WildAid/o-fish-web.git`<BR><BR>
-   for now, <A HREF="/assets/files/ocean-watch-web.tar.gz">click here</A>
+   `git clone https://github.com/WildAid/o-fish-realm.git`<BR>OR<BR><A HREF="https://github.com/WildAid/o-fish-realm/archive/master.zip">Download and extract the code</A><BR><BR>
 1. Go into the o-fish-web directory
    cd `o-fish-web`
 1. edit `src/.env/config.js`:

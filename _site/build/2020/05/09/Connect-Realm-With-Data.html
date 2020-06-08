@@ -33,11 +33,12 @@
      <img src="/assets/images/Copy_Realm_User_ID.png" style="border:1px solid black" width="100%" /><br /><br /></li>
     </ol>
   </li>
-  <li><a href="https://docs.mongodb.com/manual/tutorial/insert-documents/">Insert a new document</a> to the wildaid database, User collection (using Compass, mongo shell or code studio integration). <br />Set the email and RealmUserID with the “App Admin user” and “Realm User ID”, and set the agency and first and last names as appropriate. Here’s an example:<br />
+  <li><a href="https://docs.mongodb.com/manual/tutorial/insert-documents/">Insert a new document</a> to the wildaid database. You will be inserting into the User collection using Compass, mongo shell or code studio integration. <br /><br />The User collection does not exist, so you will need to create it in Compass. In mongoshell and your code studio integration, the collection is automatically created. <br /><br />Set the email and RealmUserID with the “App Admin user” and “Realm User ID”, and set the agency and first and last names as appropriate. Here’s an example using mongoshell:<br /><br />
+<code class="highlighter-rouge">$ mongo "mongodb+srv://ofish-xxxx.mongodb.net/wildaid" --username admin</code><br />
 <code class="highlighter-rouge">use wildaid;</code><br />
 <code class="highlighter-rouge">db.User.insertOne({</code><br />
 <code class="highlighter-rouge">"email":"sheeri.cabral@mongodb.com",</code><br />
-<code class="highlighter-rouge">"RealmUserID": {"$oid":"xxxxxxxxxxxxxxxxxxxxx"},</code><br />
+<code class="highlighter-rouge">"realmUserID": {"$oid":"xxxxxxxxxxxxxxxxxxxxx"},</code><br />
 <code class="highlighter-rouge">"agency": {"name":"MongoDB", "admin":false},</code><br />
 <code class="highlighter-rouge">"global": {"admin":true},</code><br />
 <code class="highlighter-rouge">"name": {"first":"Sheeri", "last":"Cabral"}</code><br />
