@@ -13,8 +13,8 @@ Now that you've created your Atlas database, import the sample dataset using the
    1. Go into the o-fish-realm directory, "o-fish-realm" if you did a git clone in the previous step, or "o-fish-realm-master" if you downloaded and extracted the code. The directory should have 4 items in it:<BR>
 `LICENSE README.md WildAidDemo dump`<BR>
 
-   1. Note the path to the directory CodeForGoodBackup. Put it in the "Path to sample data" section of the template. <BR>
-Example: `/Users/sheeri/o-fish-realm/CodeForGoodBackup`<BR><BR>
+   1. Note the path to the directory WildAidSampleBackup. Put it in the "Path to sample data" section of the template. <BR>
+Example: `/Users/sheeri/o-fish-realm/WildAidSampleBackup`<BR><BR>
    1. Note the path to the directory WildAidDemo, and put it in the "Path to Realm code" section of the template.<BR>
 Example: `/Users/sheeri/o-fish-realm/WildAidDemo`<BR><BR>
 
@@ -31,7 +31,7 @@ Example: `/Users/sheeri/o-fish-realm/WildAidDemo`<BR><BR>
 1. In a terminal window, use the mongorestore utility to import the data you got in the first step. use the `mongorestore` utility and the "Path to sample data", and the "Atlas Cluster connection string". Modify the connection string - just after `mongodb+srv://` you should put in the "Atlas Cluster Admin username" from the template, followed by @ and then the rest of the mongodb+srv link. The whole string, replace what's in all capital letters:<BR>
    - `mongorestore --drop --uri "mongodb+srv://USERNAME@REST_OF_CONNECTION_STRING" PATH_TO_BACKUP`<BR>
 Example:<BR>
-   - `mongorestore --drop --uri "mongodb+srv://admin@ofish-xxxxx.mongodb.net/" /Users/sheeri/wildaid_demo/o-fish-realm/CodeForGoodBackup`<BR>
+   - `mongorestore --drop --uri "mongodb+srv://admin@ofish-xxxxx.mongodb.net/" /Users/sheeri/wildaid_demo/o-fish-realm/WildAidSampleBackup`<BR>
    When it is successful, you will see a message like:<BR>
    `6117 document(s) restored successfully. 0 document(s) failed to restore.`<BR><BR>
 
