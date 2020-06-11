@@ -1,2 +1,4 @@
 name: O-FISH
 markdown: kramdown
+
+theme: jekyll-theme-hacker
