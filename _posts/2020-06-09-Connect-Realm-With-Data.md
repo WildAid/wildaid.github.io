@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "7. Connect Realm With Data"
-date: 2020-05-09 07:00:00 -0400
+date: 2020-06-09 07:00:00 -0400
 categories: build
 ---
 

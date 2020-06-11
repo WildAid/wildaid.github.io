@@ -1,15 +1,15 @@
 ---
 layout: post
 title: "9. Build Web App"
-date: 2020-05-09 09:00:00 -0400
+date: 2020-06-09 09:00:00 -0400
 categories: build
 ---
 
 Build the web app:
 1. Get the code<BR>
    1.  Get the code from <A HREF="https://github.com/WildAid/o-fish-web">https://github.com/WildAid/o-fish-web</A><BR>
-   `git clone https://github.com/WildAid/o-fish-web.git`<BR><BR>OR<BR><A HREF="https://github.com/WildAid/o-fish-web/archive/master.zip">Download and extract the code</A><BR><BR>
-1. Go into the o-fish-web directory (if you used git clone) or the o-fish-web-master directory (if you downloaded the code)<BR><BR>
+   `git clone https://github.com/WildAid/o-fish-web.git`<BR><BR>OR<BR><A HREF="https://github.com/WildAid/o-fish-web/archive/main.zip">Download and extract the code</A><BR><BR>
+1. Go into the o-fish-web directory (if you used git clone) or the o-fish-web-main directory (if you downloaded the code)<BR><BR>
 1. edit `src/config.js` and paste:<BR>
  Realm App ID into the realmAppId field<BR>
  'mongodb-atlas' into the realmServiceName field<BR>

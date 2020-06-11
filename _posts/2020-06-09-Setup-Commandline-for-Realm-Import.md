@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "5. Setup the commandline interface to import the Realm app code"
-date: 2020-05-09 05:00:00 -0400
+date: 2020-06-09 05:00:00 -0400
 categories: build
 ---
 

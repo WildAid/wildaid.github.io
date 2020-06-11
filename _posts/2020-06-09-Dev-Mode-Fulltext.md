@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "8. Dev Mode Fulltext"
-date: 2020-05-09 08:00:00 -0400
+date: 2020-06-09 08:00:00 -0400
 categories: build
 ---
 
