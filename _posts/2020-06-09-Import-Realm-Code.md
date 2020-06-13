@@ -9,7 +9,7 @@ Now it's time to import the Realm code!
 
 
 1. In the template, you have a field called "Path to Realm code". Go to that directory - you should be inside a directory called WildAidDemo.<BR><BR>
-1. Edit `stitch.json` change "name" to your "Realm App Name"<BR><BR>
+1. Edit `config.json` change "name" to your "Realm App Name"<BR><BR>
 1. Edit `services/RealmSync/config.json services/mongodb-atlas/config.json`<BR> and change the value of "ClusterName" to your "Atlas Cluster Name"<BR><BR>
 1. If you are not using AWS, skip this step. If you are, edit the following files and fill in all the relevant details:<BR>
  `values/awsRegion.json values/destinationEmailAddress.json values/sourceEmailAddress.json`<BR><BR>
