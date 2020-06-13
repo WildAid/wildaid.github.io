@@ -16,7 +16,7 @@ Now it's time to import the Realm code!
 1. If you are not using AWS, skip this step. If you are, set accessKeyID if using AWS in the file: <BR>
   `services/AWS/config.json`<BR><BR>
 1. Do the import, confirm with 'y' when prompted to confirm changes. You will paste your Realm App ID into --app-id:<BR>
-  `stitch-cli import --strategy=replace --include-dependencies --app-id=REALM_APP_ID` <BR><BR>
+  `realm-cli import --strategy=replace --include-dependencies --app-id=REALM_APP_ID` <BR><BR>
 1. Verify the code got imported by going to the Realm App and clicking "Functions" on the left-hand side. You should see several functions, as below:
   <img src="/assets/images/Functions.png" style="border:1px solid black" width="100%"><BR><BR>
 
