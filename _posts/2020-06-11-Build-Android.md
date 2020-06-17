@@ -10,10 +10,10 @@ categories: build
 1. Import the code into Android Studio and wait for the Gradle sync to finish<BR><BR>
 1. See the instructions at the <A HREF="https://github.com/WildAid/o-fish-android/blob/main/README.md">README</A> on how to build. At the time of this writing:<BR>
 Add the Realm App ID from your template to `local.properties`:<BR>
-realm_app_id=your_app_id<BR>
+`realm_app_id=your_app_id`<BR>
 Also add these 2 lines to the file (no need to change any values):<BR>
-realm_partition=WildAid<BR>
-realm_url=https://realm.mongodb.com<BR><BR>
+`realm_partition=WildAid`<BR>
+`realm_url=https://realm.mongodb.com`<BR><BR>
 
 1. Build as normal with Android studio, either directly to your physical/virtual device, or build an APK and install on a device.<BR><BR>
 
