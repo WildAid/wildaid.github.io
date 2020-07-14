@@ -2,6 +2,7 @@ name: O-FISH
 markdown: kramdown
 
 #theme: jekyll-theme-hacker
+theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
 
 
