@@ -2,13 +2,6 @@ name: O-FISH
 markdown: kramdown
 
 #theme: jekyll-theme-hacker
-theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
 
-# Aux links for the upper right navigation
-aux_links:
-  "Just the Docs on GitHub":
-    - "//github.com/pmarsceill/just-the-docs"
-
-# Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: true
 
