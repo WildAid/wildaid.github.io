@@ -194,7 +194,7 @@ GEM
     just-the-docs (0.3.0)
       jekyll (>= 3.8.5)
       jekyll-seo-tag (~> 2.0)
-      rake (>= 12.3.3, < 13.1.0)
+      rake (>= 13.1.0)
     kramdown (1.17.0)
     liquid (4.0.3)
     listen (3.2.1)
