@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "2. Data Import"
-date: 2020-06-09 02:00:00 -0400
+date: 2020-06-10 02:01:00 -0400
 categories: build
 ---
 
@@ -19,21 +19,18 @@ Example: `/Users/sheeri/o-fish-realm/WildAidSampleBackup`<BR><BR>
 Example: `/Users/sheeri/o-fish-realm/WildAidDemo`<BR><BR>
 
 1. Get connection string
-   1. Click CONNECT in the cluster itself (or as previously on the view that shows you all the clusters for the project):
-<img src="/assets/images/CONNECT.png" style="border:1px solid black" width="100%"><BR><BR>
-   1. Click on Connect using MongoDB Shell, then "I have the mongo shell installed "
-<img src="/assets/images/Click_Already_Have.png" style="border:1px solid black" width="100%"><BR><BR>
-   1. Copy the connection string
-<img src="/assets/images/Copy_Connection_String.png" style="border:1px solid black" width="100%"><BR><BR>
-   1. Click "Close"<BR><BR>
-   1. Paste the connection string into the "Atlas Cluster connection string" in your template.<BR><BR>
+   1. Click "Command Line Tools" in the Atlas cluster UI:
+<img src="/assets/images/cltools.png" style="border:1px solid black" width="100%"><BR><BR>
+   1. Copy the mongorestore connection string:
+<img src="/assets/images/Copy_mongorestore_string.png" style="border:1px solid black" width="100%"><BR><BR>
 
-1. In a terminal window, use the mongorestore utility to import the data you got in the first step. use the `mongorestore` utility and the "Path to sample data", and the "Atlas Cluster connection string". Modify the connection string - just after `mongodb+srv://` you should put in the "Atlas Cluster Admin username" from the template, followed by @ and then the rest of the mongodb+srv link. The whole string, replace what's in all capital letters:<BR>
-   - `mongorestore --drop --uri "mongodb+srv://USERNAME@REST_OF_CONNECTION_STRING" PATH_TO_BACKUP`<BR>
+1. In a terminal window, paste the mongorestore connection string - modify the username and password, and then paste the "Path to sample data" at the end.<BR>
+Here's the whole string, make sure to replace what's in all capital letters:<BR>
+   - `mongorestore --host OFISH-shard-0/ofish-shard-00-00-xxxxx.mongodb.net:27017,ofish-shard-00-01-xxxxx.mongodb.net:27017,ofish-shard-00-02-xxxxx.mongodb.net:27017 --ssl --username USERNAME --password PASSWORD --authenticationDatabase admin PATH_TO_BACKUP`<BR>
 Example:<BR>
-   - `mongorestore --drop --uri "mongodb+srv://admin@ofish-xxxxx.mongodb.net/" /Users/sheeri/wildaid_demo/o-fish-realm/WildAidSampleBackup`<BR>
+   - `mongorestore --host OFISH-shard-0/ofish-shard-00-00-xxxxx.mongodb.net:27017,ofish-shard-00-01-xxxxx.mongodb.net:27017,ofish-shard-00-02-xxxxx.mongodb.net:27017 --ssl --username admin --password elided --authenticationDatabase admin /Users/sheeri/wildaid_demo/o-fish-realm/WildAidSampleBackup`<BR>
    When it is successful, you will see a message like:<BR>
-   `6117 document(s) restored successfully. 0 document(s) failed to restore.`<BR><BR>
+   `3001 document(s) restored successfully. 0 document(s) failed to restore.`<BR><BR>
 
 1. Verify with Data Explorer
    1. Go to <code>Collections</code> in the Atlas UI:
