@@ -22,19 +22,21 @@ Set the email and realmUserID with the "App Admin user" and "Realm User ID", set
 `use wildaid;`<BR>
 `db.User.insertOne({`<BR>
 `"email":"sheeri.cabral@mongodb.com",`<BR>
+`"name": {"first":"Sheeri", "last":"Cabral"},`<BR>
 `"realmUserID": {"$oid":"xxxxxxxxxxxxxxxxxxxxx"},`<BR>
 `"agency": {"name":"WildAid", "admin":false},`<BR>
 `"global": {"admin":true},`<BR>
-`"name": {"first":"Sheeri", "last":"Cabral"}`<BR>
+`"active": true`<BR>
 `})`<BR>
 and here's a template with empty fields for copy/pasting:<BR>
 `use wildaid;`<BR>
 `db.User.insertOne({`<BR>
 `"email":"",`<BR>
+`"name": {"first":"", "last":""},`<BR>
 `"realmUserID": {"$oid":""},`<BR>
-`"agency": {"name":"", "admin":false},`<BR>
+`"agency": {"name":"WildAid", "admin":false},`<BR>
 `"global": {"admin":true},`<BR>
-`"name": {"first":"", "last":""}`<BR>
+`"active": true`<BR>
 `})`
 
 
