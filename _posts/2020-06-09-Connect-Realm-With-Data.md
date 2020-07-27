@@ -20,21 +20,21 @@ Set the email and realmUserID with the "App Admin user" and "Realm User ID", set
 <BR><BR>
 `$ mongo "mongodb+srv://ofish-xxxx.mongodb.net/wildaid" --username admin`<BR>
 `use wildaid;`<BR>
-`db.User.insertOne({`<BR>
-`"email":"sheeri.cabral@mongodb.com",`<BR>
-`"realmUserID": {"$oid":"xxxxxxxxxxxxxxxxxxxxx"},`<BR>
+`db.User.insertOne(<BR>
+`{"email":"sheeri.cabral@mongodb.com",`<BR>
+`"name": {"first":"Sheeri", "last":"Cabral"},`<BR>
+`"realmUserID": "xxxxxxxxxxxxxxxxxxxxx",`<BR>
 `"agency": {"name":"WildAid", "admin":false},`<BR>
-`"global": {"admin":true},`<BR>
-`"name": {"first":"Sheeri", "last":"Cabral"}`<BR>
+`"global": {"admin":true}`<BR>
 `})`<BR>
 and here's a template with empty fields for copy/pasting:<BR>
 `use wildaid;`<BR>
-`db.User.insertOne({`<BR>
+`db.User.insertOne(<BR>
 `"email":"",`<BR>
-`"realmUserID": {"$oid":""},`<BR>
+`"name": {"first":"", "last":""},`<BR>
+`"realmUserID": "",`<BR>
 `"agency": {"name":"", "admin":false},`<BR>
-`"global": {"admin":true},`<BR>
-`"name": {"first":"", "last":""}`<BR>
+`"global": {"admin":true}`<BR>
 `})`
 
 
