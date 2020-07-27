@@ -2,7 +2,7 @@
 layout: default
 title: How to contribute back to O-FISH
 ---
-	<h1>{{ page.title }}</h1>
+<h1>{{ page.title }}</h1>
 
 If you want to contribute to the O-FISH application, find an issue to solve:<BR>
 <OL><LI><A HREF="https://github.com/WildAid/o-fish-android/issues">Android mobile app issues</A>
@@ -10,12 +10,17 @@ If you want to contribute to the O-FISH application, find an issue to solve:<BR>
 </LI><LI><A HREF="https://github.com/WildAid/o-fish-web/issues">Node.js web app issues</A>
 </LI></OL>
 
-You will need to fork the appropriate code repository (<A HREF="https://github.com/WildAid/o-fish-android">Android</A>, <A HREF="https://github.com/WildAid/o-fish-ios">iOS</A>, <A HREF="https://github.com/WildAid/o-fish-web">Web</A>) to code your fix.<BR><BR>
+You will need to fork the appropriate code repository (<A HREF="https://github.com/WildAid/o-fish-android">Android</A>, <A HREF="https://github.com/WildAid/o-fish-ios">iOS</A>, <A HREF="https://github.com/WildAid/o-fish-web">Web</A>) and create a NEW BRANCH to code your fix. For example, to clone the web app and create a branch called 'patch_to_fix_issue_12345':<BR><BR>
+<CODE>git clone https://github.com/WildAid/o-fish-web<BR>
+git branch patch_to_fix_issue_12345</CODE><BR><BR>
 
-You will need to <A HREF="/build">build the O-FISH application</A> to test your fix.<BR><BR>
+Code your fix and <A HREF="/build">build the O-FISH application</A> to test that it works.<BR><BR>
 
-Once you verify the issue is fixed, you will need to submit your patch to the github code.
+Once you verify the issue is fixed, you will need to submit your patch to the github code. Commit, and push, e.g.:<BR><BR>
 
-If you have built the O-FISH application and want to contribute, connect with us on the <A HREF="https://developer.mongodb.com/community/forums/c/open-source/47">MongoDB Community Forum for Open Source Projects</A>.
+<CODE>git commit -m 'fixing issue 12345'<BR>
+git push origin patch_to_fix_issue_12345</CODE><BR><BR>
 
-We do not have exact contribution instructions right now, but we are developing them shortly, along with github issues for open issues that folks can easily use to contribute.
+A developer will review your code, and once the code is ready it will be merged in.<BR><BR>
+
+If you have any questions, connect with us on the <A HREF="https://developer.mongodb.com/community/forums/c/open-source/47">MongoDB Community Forum for Open Source Projects</A>.
