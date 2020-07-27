@@ -20,6 +20,10 @@ Before we make any charts, we have to set up the data source to use for Charts.
 <img src="/assets/images/ChooseDb.png" style="border:1px solid black" width="100%"><BR><BR>
 1. It has worked when you see data sources added to this screen:
 <img src="/assets/images/VerifyDataSource.png" style="border:1px solid black" width="100%"><BR><BR>
+1. For the BoardingReports data source, click on the ellipses and then "External Sharing Options":
+<img src="/assets/images/ExtSharing.png" style="border:1px solid black" width="100%"><BR><BR>
+1. Set the toggle to "On" to enable external sharing, make sure "Authenticated Embedding Only" is selected, and click the green "Save" button:
+<img src="/assets/images/SharingOn.png" style="border:1px solid black" width="100%"><BR><BR>
 1. Before we make any charts, we need to create a dashboard to hold the charts. Click on "Dashboards":
 <img src="/assets/images/ClickDashboards.png" style="border:1px solid black" width="100%"><BR><BR>
 1. Click the green "Add Dashboard" button<BR><BR>

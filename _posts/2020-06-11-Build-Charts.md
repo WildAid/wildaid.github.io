@@ -12,5 +12,4 @@ Underneath the Compliance Rate section, there is a map of boardings, and then a 
 <img src="/assets/images/BoardingsMap.png" style="border:1px solid black" width="100%"><BR><BR>
 <img src="/assets/images/ListOfBoardings.png" style="border:1px solid black" width="100%"><BR><BR>
 
-We will start by making the simplest chart first: the list of boardings.
-
+First, we will set up the Data Sources and create a dashboard for our charts.

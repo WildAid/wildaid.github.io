@@ -20,7 +20,7 @@ categories: build
 1. Drag and drop the "date" field to the Groups section, and turn binning off:
 <img src="/assets/images/date1.gif" style="border:1px solid black" width="100%"><BR><BR>
 
-1. Customize the date field by clicking on "Customize". Change the label to have a capitalized first letter - "Date" - and add in the time:
+1. Customize the date field by clicking on "Customize" and then "date". Override the label and give it a capitalized first letter - "Date" - and add in the time:
 <img src="/assets/images/date2.gif" style="border:1px solid black" width="100%"><BR><BR>
 
 1. Go back to the "Encode" section and drag the following fields to "Groups":<BR>
@@ -35,14 +35,20 @@ vessel.name - Vessel Name<BR>
 vessel.permitNumber - Permit #<BR>
 captain.name - Captain<BR>
 inspection.summary.safetyLevel.level - Risk<BR>
-<img src="/assets/images/Labels.gif" style="border:1px solid black" width="100%"><BR><BR>
+This is what the headings should look like when this step is done:
+<img src="/assets/images/Labels.png" style="border:1px solid black" width="100%"><BR><BR>
 
-1. Drag this field to the "Values" section:
+1. Drag to the "Values" section the field:
 inspection -> summary -> violations -> disposition
-<img src="/assets/images/count.gif" style="border:1px solid black" width="100%"><BR><BR>
+<img src="/assets/images/disposition.png" style="border:1px solid black" width="100%"><BR><BR>
 
 1. Choose the Array Reduction by "Array Length":
-<img src="/assets/images/ArrayReduction.gif" style="border:1px solid black" width="100%"><BR><BR>
+<img src="/assets/images/ArrayReduction.png" style="border:1px solid black" width="100%"><BR><BR>
 
+1. Go to the "Customize" section and override the Label to say "# Violations": 
+<img src="/assets/images/VioLabel.png" style="border:1px solid black" width="100%"><BR><BR>
 
+1. Click the "Save and Close" button
+<img src="/assets/images/CloseSave.png" style="border:1px solid black" width="100%"><BR><BR>
 
+Congrats! You have made your chart! 
