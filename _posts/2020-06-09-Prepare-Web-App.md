@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "8. Dev Mode Fulltext"
+title: "Build Web App - Preparation"
 date: 2020-06-09 08:00:00 -0400
-categories: build
+categories: web
 ---
 
 Now it's time to put your Realm app into Development mode so deploying the web app is easier, and set up a fulltext index with Atlas Search:
@@ -16,13 +16,6 @@ Now it's time to put your Realm app into Development mode so deploying the web a
 1. Despite other indications, development mode is not really on until you click "Review and Deploy" in the blue bar on the top, and then deploy the changes:
         <img src="/assets/images/Review_Deploy.png" style="border:1px solid black" width="100%"><BR><BR>
 
-1.  Add fulltext search index - go to the Atlas UI for the cluster and click on "Collections". Click on the "wildaid" database, then the "BoardingReports" collection.
-        <img src="/assets/images/BR_Collection.png" style="border:1px solid black" width="100%"><BR><BR>
-1. Click on the "Search" tab, and then "Create Search Index":
-        <img src="/assets/images/Search_Index.png" style="border:1px solid black" width="100%"><BR><BR>
-    1. Click "Create Index" to create the default fulltext search index, mapping every field.
-        <img src="/assets/images/Create_Search_Index.png" style="border:1px solid black" width="100%"><BR><BR>
-    1. Click "Close" and your index will build in the background
 
 Onwards!
 
