@@ -3,30 +3,52 @@ layout: default
 title: Contributing back to O-FISH
 ---
 <h1>{{ page.title }}</h1>
+<p>
+    If you want to contribute to the O-FISH application, find an issue to solve:<br>
+        <ol>
+            <li><a href="https://github.com/WildAid/o-fish-android/issues">Android mobile app issues</a></li>
+            <li><a href="https://github.com/WildAid/o-fish-ios/issues">iOS mobile app issues</a></li>
+            <li><a href="https://github.com/WildAid/o-fish-web/issues">React web app issues</a></li>
+            ><li><a href="https://github.com/WildAid/o-fish-realm/issues">Realm backend</a></li>
+        </ol>
+</p>
+<p>
+    You will need to fork the appropriate code repository (<a href="https://github.com/WildAid/o-fish-android">Android</a>, <a href="https://github.com/WildAid/o-fish-ios">iOS</a>, <a href="https://github.com/WildAid/o-fish-web">Web</a>). You then need to checkout your new fork. For example:
+</p>
+<code>
+git clone https://github.com/my-github-name/o-fish-web.git
+cd o-fish-web
+</code>
+<p>
+    Track changes from the original repo:
+</p>
+<code>
+git remote add --track master upstream https://github.com/WildAid/o-fish-web.git
+git fetch upstream
+</code>
+<p>
+    Create and switch to a new branch on your fork:
+</p>
+<code>
+git checkout -b fix_issue_12345 upstream/master
+</code>
+<p>
+    Code your fix and <a href="/build">build the O-FISH application</a> to test that it works.
+</p>
+<p>
+    Once you verify the issue is fixed, you will need to submit your edits to your fork's branch, commit, and push, e.g.:
+</p>
+<code>
+git add .
+git commit -m 'fixing issue 12345'
+git push -u origin fix_issue_12345
+</code>
+<p>
+    Create a pull request as the output instructs by visiting the original GitHub repo.
+</p>
+<p>
+    A developer will review your code, and once the code is ready it will be merged in
+</p>.
 
-If you want to contribute to the O-FISH application, find an issue to solve:<BR>
-<OL><LI><A HREF="https://github.com/WildAid/o-fish-android/issues">Android mobile app issues</A>
-</LI><LI><A HREF="https://github.com/WildAid/o-fish-ios/issues">iOS mobile app issues</A>
-</LI><LI><A HREF="https://github.com/WildAid/o-fish-web/issues">Node.js web app issues</A>
-</LI></OL>
-
-You will need to fork the appropriate code repository (<A HREF="https://github.com/WildAid/o-fish-android">Android</A>, <A HREF="https://github.com/WildAid/o-fish-ios">iOS</A>, <A HREF="https://github.com/WildAid/o-fish-web">Web</A>) and create a NEW BRANCH to code your fix. For example, to clone the web app and create a branch called 'fix_issue_12345':<BR><BR>
-<CODE>git clone https://github.com/WildAid/o-fish-web<BR>
-cd o-fish-web<BR>
-git checkout -b to_fix_issue_12345</CODE><BR><BR>
-
-Code your fix and <A HREF="/build">build the O-FISH application</A> to test that it works.<BR><BR>
-
-Once you verify the issue is fixed, you will need to submit your patch to the github code. Commit, and push, e.g.:<BR><BR>
-
-<CODE>git commit -m 'fixing issue 12345'<BR>
-git push origin fix_issue_12345</CODE><BR><BR>
-
-Create a pull request as the output instructs:<BR><BR>
-<CODE>remote: Create a pull request for 'fix_issue_12345' on GitHub by visiting:<BR>
-remote:      https://github.com/WildAid/o-fish-web/pull/new/fix_issue_12345</CODE><BR><BR>
-
-A developer will review your code, and once the code is ready it will be merged in.<BR><BR>
-
-If you have any questions, connect with us on the <A HREF="https://developer.mongodb.com/community/forums/c/open-source/47">MongoDB Community Forum for Open Source Projects</A>.
+If you have any questions, connect with us on the <a href="https://developer.mongodb.com/community/forums/c/open-source/47">MongoDB Community Forum for Open Source Projects</a>.
 
