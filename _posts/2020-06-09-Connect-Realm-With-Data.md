@@ -20,7 +20,7 @@ Set the email and realmUserID with the "App Admin user" and "Realm User ID", set
 <BR><BR>
 `$ mongo "mongodb+srv://ofish-xxxx.mongodb.net/wildaid" --username admin`<BR>
 `use wildaid;`<BR>
-`db.User.insertOne(<BR>
+`db.User.insertOne(`<BR>
 `{"email":"sheeri.cabral@mongodb.com",`<BR>
 `"name": {"first":"Sheeri", "last":"Cabral"},`<BR>
 `"realmUserID": "xxxxxxxxxxxxxxxxxxxxx",`<BR>
@@ -29,7 +29,7 @@ Set the email and realmUserID with the "App Admin user" and "Realm User ID", set
 `})`<BR>
 and here's a template with empty fields for copy/pasting:<BR>
 `use wildaid;`<BR>
-`db.User.insertOne(<BR>
+`db.User.insertOne(`<BR>
 `"email":"",`<BR>
 `"name": {"first":"", "last":""},`<BR>
 `"realmUserID": "",`<BR>
