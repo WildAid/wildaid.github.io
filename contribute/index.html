@@ -1,9 +1,58 @@
 ---
 layout: default
-title: How to contribute back to O-FISH
+title: Contributing back to O-FISH
 ---
-	<h1>{{ page.title }}</h1>
-
-If you have build the O-FISH application and want to contribute, connect with us on the <A HREF="https://developer.mongodb.com/community/forums/c/open-source/47">MongoDB Community Forum for Open Source Projects</A>.
-
-We do not have exact contribution instructions right now, but we are developing them shortly, along with github issues for open issues that folks can easily use to contribute.
+<h1>{{ page.title }}</h1>
+<p>
+    If you want to contribute to the O-FISH application, find an issue to solve:<br>
+        <ol>
+            <li><a href="https://github.com/WildAid/o-fish-android/issues">Android mobile app issues</a></li>
+            <li><a href="https://github.com/WildAid/o-fish-ios/issues">iOS mobile app issues</a></li>
+            <li><a href="https://github.com/WildAid/o-fish-web/issues">React web app issues</a></li>
+            <li><a href="https://github.com/WildAid/o-fish-realm/issues">Realm backend</a></li>
+        </ol>
+</p>
+<p>
+    You will need to fork the appropriate code repository (<a href="https://github.com/WildAid/o-fish-android">Android</a>, <a href="https://github.com/WildAid/o-fish-ios">iOS</a>, <a href="https://github.com/WildAid/o-fish-web">Web</a>). You then need to checkout your new fork. For example:
+</p>
+<code>
+git clone https://github.com/my-github-name/o-fish-web.git<BR>
+cd o-fish-web
+</code>
+<p>
+    Track changes from the original repo:
+</p>
+<code>
+git remote add --track main upstream https://github.com/WildAid/o-fish-web.git
+git fetch upstream
+</code>
+<p>
+    Create and switch to a new branch on your fork:
+</p>
+<code>
+git checkout -b fix_issue_12345 upstream/main
+</code>
+<p>
+    Code your fix and <a href="/build">build the O-FISH application</a> to test that it works.
+</p>
+<p>
+    Once you verify the issue is fixed, you will need to submit your edits to your fork's branch, commit, and push, e.g.:
+</p>
+<code>
+git add .
+git commit -m 'fixing issue 12345'
+git push -u origin fix_issue_12345
+</code>
+<p>
+    Create a pull request as the output instructs by following the instructions given in the output from the previous command:
+</p>
+<code>
+remote: Create a pull request for 'fix_issue_12345' on GitHub by visiting:
+remote:      https://github.com/my-github-name/o-fish-web/pull/new/fix_issue_12345    
+</code>
+<p>
+    A developer will review your code, and once the code is ready it will be merged in.
+</p>
+<p>
+    If you have any questions, check out the <a href="https://developer.mongodb.com/community/forums/tag/o-fish/">MongoDB Community Forum posts with the O-FISH tag or create a new post</a>.
+</p>
