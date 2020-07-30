@@ -2,7 +2,7 @@
 layout: post
 title: "Build the Android App"
 date: 2020-06-11 13:00:00 -0400
-categories: build
+categories: android
 ---
 
 1. Get the code from <A HREF="https://github.com/WildAid/o-fish-android">https://github.com/WildAid/o-fish-android</A><BR>

@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "9. Build Web App"
+title: "Build Web App"
 date: 2020-06-09 09:00:00 -0400
-categories: build
+categories: web
 ---
 
-Build the web app:
+Build the web app:<BR>
 1. Get the code<BR>
    1.  Get the code from <A HREF="https://github.com/WildAid/o-fish-web">https://github.com/WildAid/o-fish-web</A><BR>
    `git clone https://github.com/WildAid/o-fish-web.git`<BR><BR>OR<BR><A HREF="https://github.com/WildAid/o-fish-web/archive/main.zip">Download and extract the code</A><BR><BR>

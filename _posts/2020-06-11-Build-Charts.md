@@ -2,7 +2,7 @@
 layout: post
 title: "Build the Charts"
 date: 2020-06-11 14:00:00 -0400
-categories: build
+categories: charts
 ---
 
 There are 6 charts to make for the O-FISH web app. There are 4 charts in the Compliance Rate section on the homepage - each of the numbers for "Compliance Rate", "Boardings" and "Violations" are their own charts, plus the donut chart:

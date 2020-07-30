@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "10. Test Web App"
+title: "Test Web App"
 date: 2020-06-09 10:00:00 -0400
-categories: build
+categories: web
 ---
 
 1. Go to your website with the URL from the template<BR><BR>

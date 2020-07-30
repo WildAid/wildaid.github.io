@@ -42,4 +42,9 @@ Example:<BR>
    1. Click on the BoardingReports collection and verify there are records: 
 <img src="/assets/images/Verify_Data.png" style="border:1px solid black" width="75%"><BR><BR>
 
+1.  Add fulltext search index - Click on the "Search" tab, and then "Create Search Index":
+        <img src="/assets/images/Search_Index.png" style="border:1px solid black" width="100%"><BR><BR>
+    1. Click "Create Index" to create the default fulltext search index, mapping every field.
+        <img src="/assets/images/Create_Search_Index.png" style="border:1px solid black" width="100%"><BR><BR>
+    1. Click "Close" and your index will build in the background
 Great work, now you're ready to hook up Realm...

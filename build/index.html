@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Build your own O-FISH instance
+title: For Developers&#58; Build O-FISH
 ---
 	<h1>{{ page.title }}</h1>
 
@@ -36,10 +36,45 @@ App Admin username:<BR>
 App Admin password:<BR>
 Realm User ID:<BR>
 <BR><BR>
-	<ul class="posts">
 Now that you have the template in a scratchpad to take notes, let's build!
+
+	<ul class="posts">
+Foundation:
 {% assign sortedPosts = site.posts | reverse %}
-	  {% for post in sortedPosts | reverse %}
+	  {% for post in sortedPosts %}
+            {% if post.categories contains 'build' %}
 	    <li><span>» <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+            {% endif %}
+	  {% endfor %}
+<BR>
+
+Web Application:<BR>
+	  {% for post in sortedPosts %}
+            {% if post.categories contains 'web' %}
+	    <li><span>» <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+            {% endif %}
+	  {% endfor %}
+<BR>
+Charts:
+	  {% for post in sortedPosts %}
+            {% if post.categories contains 'charts' %}
+	    <li><span>» <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+            {% endif %}
+	  {% endfor %}
+<BR>
+
+Android Application:<BR>
+	  {% for post in sortedPosts %}
+            {% if post.categories contains 'android' %}
+	    <li><span>» <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+            {% endif %}
+	  {% endfor %}
+<BR>
+
+iOS Application:
+	  {% for post in sortedPosts %}
+            {% if post.categories contains 'ios' %}
+	    <li><span>» <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+            {% endif %}
 	  {% endfor %}
 	</ul>

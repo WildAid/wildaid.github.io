@@ -1,8 +1,8 @@
 name: O-FISH
+title: O-FISH Docs
 markdown: kramdown
 
-#theme: jekyll-theme-hacker
-theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
+theme: just-the-docs
 
 

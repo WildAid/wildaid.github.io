@@ -2,7 +2,7 @@
 layout: post
 title: "Build and Deploy to Test Charts"
 date: 2020-06-12 04:00:00 -0400
-categories: build
+categories: charts
 ---
 
 You have created and embedded a chart, so let's build and deploy the web application to see that everything worked.

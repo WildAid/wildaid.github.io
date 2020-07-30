@@ -2,7 +2,7 @@
 layout: post
 title: "Create Boarding List Chart"
 date: 2020-06-12 02:00:00 -0400
-categories: build
+categories: charts
 ---
 
 1. On your dashboard, click the green "Add Chart" button:

@@ -2,7 +2,7 @@
 layout: post
 title: "Create Compliance Charts"
 date: 2020-06-12 05:00:00 -0400
-categories: build
+categories: charts
 ---
 
 Following this guide you will make the Compliance charts, which are three charts that are numbers, and one donut chart.<BR>
