@@ -2,7 +2,8 @@
 layout: post
 title: "6. Import Realm Code"
 date: 2020-06-09 06:00:00 -0400
-categories: build
+categories: foundation
+site: build
 ---
 
 Now it's time to import the Realm code!

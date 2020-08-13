@@ -3,6 +3,7 @@ layout: post
 title: "Embed Boarding List Chart"
 date: 2020-06-12 03:00:00 -0400
 categories: charts
+site: build
 ---
 
 Now that you have created the Boarding List Chart, let's embed it in your application.
