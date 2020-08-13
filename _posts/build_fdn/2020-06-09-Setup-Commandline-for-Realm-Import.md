@@ -2,7 +2,8 @@
 layout: post
 title: "5. Setup the commandline interface to import the Realm app code"
 date: 2020-06-09 05:00:00 -0400
-categories: build
+categories: foundation
+site: build
 ---
 
 The commandline interface to import the Realm app code is called "realm-cli". We will set this up in this step, then import all the Realm code in the next step.

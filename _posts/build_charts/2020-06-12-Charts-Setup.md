@@ -3,6 +3,7 @@ layout: post
 title: "Set up Charts"
 date: 2020-06-12 01:00:00 -0400
 categories: charts
+site: build
 ---
 
 Before we make any charts, we have to set up the data source to use for Charts.

@@ -2,7 +2,8 @@
 layout: post
 title: "2. Data Import"
 date: 2020-06-09 02:00:00 -0400
-categories: build
+categories: foundation
+site: build
 ---
 
 Now that you've created your Atlas database, import the sample dataset using the `mongorestore` commandline utility:

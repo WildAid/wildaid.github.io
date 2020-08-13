@@ -2,7 +2,8 @@
 layout: post
 title: "7. Connect Realm With Data"
 date: 2020-06-09 07:00:00 -0400
-categories: build
+categories: foundation
+site: build
 ---
 
 You have imported your Realm app!  Now, let's create a Realm user...

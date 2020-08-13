@@ -2,7 +2,8 @@
 layout: post
 title: "3. Create Realm App"
 date: 2020-06-09 03:00:00 -0400
-categories: build
+categories: foundation
+site: build
 ---
 
 Now that you've populated your Atlas database, this page will walk you through creating the Realm App and import all the code associated with it (e.g. functions, triggers):

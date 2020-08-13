@@ -3,6 +3,7 @@ layout: post
 title: "Build Web App - Preparation"
 date: 2020-06-09 08:00:00 -0400
 categories: web
+site: build
 ---
 
 Now it's time to put your Realm app into Development mode so deploying the web app is easier, and set up a fulltext index with Atlas Search:

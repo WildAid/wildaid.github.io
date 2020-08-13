@@ -2,7 +2,8 @@
 layout: post
 title: "0. Atlas Database"
 date: 2020-06-09 00:00:00 -0400
-categories: build
+categories: foundation
+site: build
 ---
 
 The first step is to set up the Atlas database - this is the foundation data layer that serve data to the mobile apps, charts, and web apps.

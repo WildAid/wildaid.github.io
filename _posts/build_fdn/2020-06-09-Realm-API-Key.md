@@ -2,7 +2,8 @@
 layout: post
 title: "4. Realm API Key Generation"
 date: 2020-06-09 04:00:00 -0400
-categories: build
+categories: foundation
+site: build
 ---
 
 

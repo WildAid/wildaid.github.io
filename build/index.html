@@ -1,6 +1,6 @@
 ---
 layout: default
-title: For Developers&#58; Build O-FISH
+title: devs&#58; Build O-FISH
 ---
 	<h1>{{ page.title }}</h1>
 
@@ -42,7 +42,7 @@ Now that you have the template in a scratchpad to take notes, let's build!
 Foundation:
 {% assign sortedPosts = site.posts | reverse %}
 	  {% for post in sortedPosts %}
-            {% if post.categories contains 'build' %}
+            {% if post.categories contains 'foundation' %}
 	    <li><span>» <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
             {% endif %}
 	  {% endfor %}
