@@ -1,0 +1,20 @@
+---
+layout: default
+title: Using O-FISH on iOS
+---
+	<h1>{{ page.title }}</h1>
+
+O-FISH is the Officer Fisheries Information Sharing Hub. It was developed to enabled you to gather thorough information and share it quickly and easily. <BR><BR>
+
+The mobile apps are designed for officers boarding vessels to get the information they need. 
+
+  <ul class="posts">
+
+Using the iOS mobile application:
+  {% assign sortedPosts = site.posts | reverse %}
+  {% for post in sortedPosts %}
+    {% if post.site == 'useiOS' %}
+    <li><span>» <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endif %}
+	  {% endfor %}
+</ul>

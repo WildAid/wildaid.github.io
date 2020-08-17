@@ -1,0 +1,20 @@
+---
+layout: default
+title: Using O-FISH on Web
+---
+	<h1>{{ page.title }}</h1>
+
+O-FISH is the Officer Fisheries Information Sharing Hub. It was developed to enabled you to gather thorough information and share it quickly and easily.<BR><BR>
+
+The web application is designed for administrators back in the office to look at all the boarding information.
+
+
+  <ul class="posts">
+Using the web application:
+  {% assign sortedPosts = site.posts | reverse %}
+  {% for post in sortedPosts %}
+    {% if post.site == 'useWeb' %}
+    <li><span>» <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endif %}
+	  {% endfor %}
+</ul>
