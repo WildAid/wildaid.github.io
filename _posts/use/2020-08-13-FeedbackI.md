@@ -2,7 +2,6 @@
 layout: postiOSUse
 title: "Sending TestFlight Feedback"
 date: 2020-08-13 00:00:00 -0400
-categories: feedback
 site: useiOS
 ---
 

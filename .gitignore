@@ -1,2 +1,4 @@
 _site
 .sass-cache
+assets/images/.DS_Store
+assets/images/use/.DS_Store
