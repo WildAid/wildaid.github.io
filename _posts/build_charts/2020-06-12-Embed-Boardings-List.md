@@ -35,6 +35,8 @@ Now that you have created the Boarding List Chart, let's embed it in your applic
 1. Go back to the Web UI and copy the Chart ID:
 <img src="/assets/images/CopyBDChart.png" style="border:1px solid black" width="100%"><BR><BR>
 
+1. In the Charts UI, click "Close" to close the "Embed Chart" window.<BR><BR>
+
 1. Paste the Chart ID into your web application's src/config.js file under "patrol-hours".
 
 

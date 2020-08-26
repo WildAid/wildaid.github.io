@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Create Compliance Charts"
+title: "Create Compliance Charts - Numbers"
 date: 2020-06-12 05:00:00 -0400
 categories: charts
 site: build
 ---
 
-Following this guide you will make the Compliance charts, which are three charts that are numbers, and one donut chart.<BR>
+On this page, you will make two of the following Compliance Charts - specifically, the two numbers - Boardings and Violations (Citations and warnigs):<BR>
 <img src="/assets/images/ComplianceCharts.png" style="border:1px solid black" width="70%"><BR><BR>
 
 1. First, let's create the "Boardings" number. On the Charts Dashboard, click "Add Chart"
@@ -29,8 +29,11 @@ And you should see the total number of boarding reports in the window. Click "Sa
 
 1. On your dashboard, mouse over the chart until you see the ellipses. Click on the ellipses and select "Embed Chart":
 <img src="/assets/images/ClickBCEmbedMenu.png" style="border:1px solid black" width="100%"><BR><BR>
-1. Click "Authenticated" and copy the Chart ID for this chart
+
+1. Select the "Authenticated" section, and make sure "Enabled authenticated access" is set to "ON", and copy the Chart ID:
 <img src="/assets/images/CopyBDChart.png" style="border:1px solid black" width="100%"><BR><BR>
+
+1. Select "Close" to close the "Embed Chart" window.<BR><BR>
 
 1. Paste the Chart ID into your web application's src/config.js file under "boardings-count-chart".<BR><BR><BR><BR>
 
@@ -50,21 +53,19 @@ And you should see the total number of boarding reports in the window. Click "Sa
 1. Drag _id to the "Number" field and make sure the aggregation method is "COUNT":
 <img src="/assets/images/Count_id.png" style="border:1px solid black" width="100%"><BR><BR>
 
-1. This chart shows all violations, so you want a count of boarding records that have a violation disposition of either Citation or Warning. To do this, paste the following query into the "Query" field at the top:<BR>
+1. This chart shows all violations, so you want a count of boarding records that have a violation disposition of either Citation or Warning. To do this, paste the following query into the "Query" field at the top, and then click "Apply":<BR>
 `{"inspection.summary.violations.disposition": {$in: [ "Citation", "Warning" ] }}`<BR>
 <img src="/assets/images/ViolationsQuery.png" style="border:1px solid black" width="100%"><BR><BR>
 
-You will see the number of boarding reports that have any violation in the window. Click "Save and Close"
+You will see the number of boarding reports that have any violation in the window. Click "Save and Close".
 
 1. On your dashboard, mouse over the chart until you see the ellipses. Click on the ellipses and select "Embed Chart":
 <img src="/assets/images/ClickBCEmbedMenu.png" style="border:1px solid black" width="100%"><BR><BR>
-1. Click "Authenticated" and copy the Chart ID for this chart
+
+1. Select the "Authenticated" section, and make sure "Enabled authenticated access" is set to "ON", and copy the Chart ID:
 <img src="/assets/images/CopyBDChart.png" style="border:1px solid black" width="100%"><BR><BR>
+1. Select "Close" to close the "Embed Chart" window.<BR><BR>
 
 1. Paste the Chart ID into your web application's src/config.js file under "citations-and-warnings"
 
-
-
-Create more charts in the next guide!
-
-Create more charts in the next guide!
+Onward to the percentage!
