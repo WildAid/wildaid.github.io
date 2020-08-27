@@ -19,10 +19,10 @@ site: build
 <img src="/assets/images/BDTitle.gif" style="border:1px solid black" width="100%"><BR><BR>
 
 1. Drag and drop the "date" field to the Groups section, and turn binning off:
-<img src="/assets/images/date1.gif" style="border:1px solid black" width="100%"><BR><BR>
+<img src="/assets/images/Date1.gif" style="border:1px solid black" width="100%"><BR><BR>
 
 1. Customize the date field by clicking on "Customize" and then "date". Override the label and give it a capitalized first letter - "Date" - and add in the time:
-<img src="/assets/images/date2.gif" style="border:1px solid black" width="100%"><BR><BR>
+<img src="/assets/images/Date2.gif" style="border:1px solid black" width="100%"><BR><BR>
 
 1. Go back to the "Encode" section and drag the following fields to "Groups":<BR>
 vessel -> name<BR>
