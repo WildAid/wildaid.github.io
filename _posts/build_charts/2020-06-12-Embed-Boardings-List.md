@@ -26,6 +26,9 @@ Now that you have created the Boarding List Chart, let's embed it in your applic
 1. When you have a green verification section, click "Back to Embed Chart":
 <img src="/assets/images/VerifyEmbed.png" style="border:1px solid black" width="100%"><BR><BR>
 
+1. Set the User Specified Filters to "date":<BR>
+<img src="/assets/images/SetDateFilter.png" style="border:1px solid black" width="100%"><BR><BR>
+
 1. Copy the Charts Base URL:
 <img src="/assets/images/CopyURL.png" style="border:1px solid black" width="100%"><BR><BR>
 
