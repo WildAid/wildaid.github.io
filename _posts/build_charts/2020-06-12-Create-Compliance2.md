@@ -58,12 +58,15 @@ On this page, you will make the Compliance Rate chart - shown as the percentage 
 <img src="/assets/images/Suffix.png" style="border:1px solid black" width="100%"><BR><BR>
 
 And you should see the percentage in the window. Click "Save and Close"
-<img src="/assets/images/CloseSave.png" style="border:1px solid black" width="100%"><BR><BR>
+<img src="/assets/images/SaveClosePercentage.png" style="border:1px solid black" width="100%"><BR><BR>
 
 1. On your dashboard, mouse over the chart until you see the ellipses. Click on the ellipses and select "Embed Chart":
 <img src="/assets/images/ClickBCEmbedMenu.png" style="border:1px solid black" width="100%"><BR><BR>
 
-1. Select the "Authenticated" section, and make sure "Enabled authenticated access" is set to "ON", and copy the Chart ID:
+1. Select the "Authenticated" section, make sure "Enabled authenticated access" is set to "ON", and set the User Specified Filters to "date" and click the green "SAVE" button:<BR>
+<img src="/assets/images/SetDateFilter.png" style="border:1px solid black" width="100%"><BR><BR>
+
+1. Copy the Chart ID:<BR>
 <img src="/assets/images/CopyBDChart.png" style="border:1px solid black" width="100%"><BR><BR>
 
 1. Select "Close" to close the "Embed Chart" window.<BR><BR>
