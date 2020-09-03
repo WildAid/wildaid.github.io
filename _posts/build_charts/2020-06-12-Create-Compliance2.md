@@ -9,8 +9,8 @@ site: build
 On this page, you will make the Compliance Rate chart - shown as the percentage below:<BR>
 <img src="/assets/images/ComplianceCharts.png" style="border:1px solid black" width="70%"><BR><BR>
 
-1. On the Charts Dashboard, click "Add Chart"<BR>
-<img src="/assets/images/AddChart.png" style="border:1px solid black" width="70%"><BR><BR>
+1. On the Charts Dashboard, select "Add Chart"<BR>
+<img src="/assets/images/AddChart.png" style="border:1px solid black" width="100%"><BR><BR>
 
 1. Set the title to "Compliance Rate"<BR>
 <img src="/assets/images/CRTitle.png" style="border:1px solid black" width="100%"><BR><BR>
@@ -22,7 +22,7 @@ On this page, you will make the Compliance Rate chart - shown as the percentage 
 1. Choose a Chart subtype of Number:
 <img src="/assets/images/NumberChart.png" style="border:1px solid black" width="100%"><BR><BR>
 
-1. We need to calculate the percentage of a subset of data as compared to the total amount of data, which we cannot do with a calculated field. However, we can do this with an aggregation, which we can paste into the Query field, and then click "Apply":<BR><BR>
+1. We need to calculate the percentage of a subset of data as compared to the total amount of data, which we cannot do with a calculated field. However, we can do this with an aggregation, which we can paste into the Query field, and then select "Apply":<BR><BR>
 `[{$group: { _id: null, total: { $sum: 1 },` <BR>
   `justCompliant: { $sum: { $cond: { ` <BR>
         `'if': {$and: [ ` <BR>
@@ -48,7 +48,7 @@ On this page, you will make the Compliance Rate chart - shown as the percentage 
 1. The field is in decimal value:<BR>
 <img src="/assets/images/Percentage.png" style="border:1px solid black" width="100%"><BR><BR>
 
-1. Click "Customize", then percentage, then toggle Decimals and set it to 2:<BR>
+1. Select "Customize", then percentage, then toggle Decimals and set it to 2:<BR>
 <img src="/assets/images/Decimals.png" style="border:1px solid black" width="100%"><BR><BR>
 
 1. Toggle the Multiplier and set it to 100.<BR>
@@ -57,13 +57,13 @@ On this page, you will make the Compliance Rate chart - shown as the percentage 
 1. Toggle the Suffix and set it to be %:<BR>
 <img src="/assets/images/Suffix.png" style="border:1px solid black" width="100%"><BR><BR>
 
-And you should see the percentage in the window. Click "Save and Close"
+And you should see the percentage in the window. Select "Save and Close"
 <img src="/assets/images/SaveClosePercentage.png" style="border:1px solid black" width="100%"><BR><BR>
 
-1. On your dashboard, mouse over the chart until you see the ellipses. Click on the ellipses and select "Embed Chart":
+1. On your dashboard, mouse over the chart until you see the ellipses. Select the ellipses and select "Embed Chart":
 <img src="/assets/images/ClickBCEmbedMenu.png" style="border:1px solid black" width="100%"><BR><BR>
 
-1. Select the "Authenticated" section, make sure "Enabled authenticated access" is set to "ON", and set the User Specified Filters to "date" and click the green "SAVE" button:<BR>
+1. Select the "Authenticated" section, make sure "Enabled authenticated access" is set to "ON", and set the User Specified Filters to "date" and select the green "SAVE" button:<BR>
 <img src="/assets/images/SetDateFilter.png" style="border:1px solid black" width="100%"><BR><BR>
 
 1. Copy the Chart ID:<BR>
