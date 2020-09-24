@@ -9,7 +9,7 @@ site: build
 On this page, you will make two of the following Compliance Charts - specifically, the two numbers - Boardings and Violations (Citations and warnigs):<BR>
 <img src="/assets/images/ComplianceCharts.png" style="border:1px solid black" width="70%"><BR><BR>
 
-1. First, let's create the "Boardings" number. On the Charts Dashboard, click "Add Chart"
+1. First, let's create the "Boardings" number. On the Charts Dashboard, select "Add Chart"
 <img src="/assets/images/AddChart.png" style="border:1px solid black" width="70%"><BR><BR>
 1. Set the title to "Boardings"
 <img src="/assets/images/BoardingsTitle.png" style="border:1px solid black" width="100%"><BR><BR>
@@ -24,13 +24,13 @@ On this page, you will make two of the following Compliance Charts - specificall
 1. Drag _id to the "Number" field and make sure the aggregation method is "COUNT":
 <img src="/assets/images/Count_id.png" style="border:1px solid black" width="100%"><BR><BR>
 
-And you should see the total number of boarding reports in the window. Click "Save and Close"
+And you should see the total number of boarding reports in the window. Select "Save and Close" in the upper right.
 <img src="/assets/images/CloseSave.png" style="border:1px solid black" width="100%"><BR><BR>
 
-1. On your dashboard, mouse over the chart until you see the ellipses. Click on the ellipses and select "Embed Chart":
+1. On your dashboard, mouse over the chart until you see the ellipses. Select the ellipses and select "Embed Chart":
 <img src="/assets/images/ClickBCEmbedMenu.png" style="border:1px solid black" width="100%"><BR><BR>
 
-1. Select the "Authenticated" section, make sure "Enabled authenticated access" is set to "ON", and set the User Specified Filters to "date" and click the green "SAVE" button:<BR>
+1. Select the "Authenticated" section, make sure "Enabled authenticated access" is set to "ON", and set the User Specified Filters to "date" and select the green "SAVE" button:<BR>
 <img src="/assets/images/SetDateFilter.png" style="border:1px solid black" width="100%"><BR><BR>
 
 1. Copy the Chart ID:<BR>
@@ -41,7 +41,7 @@ And you should see the total number of boarding reports in the window. Click "Sa
 1. Paste the Chart ID into your web application's src/config.js file under "boardings-count-chart".<BR><BR><BR><BR>
 
 
-1. Now let's create the "Violations" number. On the Charts Dashboard, mouse over the "Boardings" chart and click the three dots in the corner, then click "Duplicate Chart":<BR><BR>
+1. Now let's create the "Violations" number. On the Charts Dashboard, mouse over the "Boardings" chart and select the three dots in the corner, then select "Duplicate Chart":<BR><BR>
 <img src="/assets/images/DuplicateBoardings.png" style="border:1px solid black" width="70%"><BR><BR>
 
 1. Set the title of the new, duplicated chart to "All Violations"
@@ -56,13 +56,13 @@ Drag inspection -> summary -> violations -> disposition to "+ filter":<BR>
 Select only Citation and Warning:<BR>
 <img src="/assets/images/ChooseCitationWarning.png" style="border:1px solid black" width="100%"><BR><BR>
 
-And you should see the total number of boarding reports with violations in the window. Click "Save and Close":
+And you should see the total number of boarding reports with violations in the window. Select "Save and Close" in the upper right.
 <img src="/assets/images/CloseSave.png" style="border:1px solid black" width="100%"><BR><BR>
 
-1. On your dashboard, mouse over the "Violations" chart until you see the ellipses. Click on the ellipses and select "Embed Chart":
+1. On your dashboard, mouse over the "Violations" chart until you see the ellipses. Select the ellipses and select "Embed Chart":
 <img src="/assets/images/ClickBCEmbedMenu.png" style="border:1px solid black" width="100%"><BR><BR>
 
-1. Select the "Authenticated" section, make sure "Enabled authenticated access" is set to "ON", and set the User Specified Filters to "date" and click the green "SAVE" button:<BR>
+1. Select the "Authenticated" section, make sure "Enabled authenticated access" is set to "ON", and set the User Specified Filters to "date" and select the green "SAVE" button:<BR>
 <img src="/assets/images/SetDateFilter.png" style="border:1px solid black" width="100%"><BR><BR>
 
 1. Copy the Chart ID:<BR>
