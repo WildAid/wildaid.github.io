@@ -1,6 +1,7 @@
 ---
 layout: default
-title: _Contributing to O-FISH_
+title: Contributing to O-FISH
+nav_order: 60
 ---
 <h1>{{ page.title }}</h1>
 <p>
@@ -12,6 +13,9 @@ title: _Contributing to O-FISH_
             <li><a href="https://github.com/WildAid/o-fish-realm/issues">Realm backend</a></li>
         </ol>
 </p>
+Add a comment to the issue you want to solve, stating "I would like to work on this issue". If there are no other requests to work on the issue, you may start work right away, even if it has not been assigned to you. <BR><BR>
+Please do NOT work on an issue that is assigned to someone else.<BR><BR>
+Please do NOT work on an issue that has another comment stating "I would like to work on this issue."
 <p>
     You will need to fork the appropriate code repository by going to the appropriate github page (<a href="https://github.com/WildAid/o-fish-android">Android</a>, <a href="https://github.com/WildAid/o-fish-ios">iOS</a>, <a href="https://github.com/WildAid/o-fish-web">Web</a>, <a href="https://github.com/WildAid/o-fish-realm">Realm</a>) and selecting "Fork" in the upper-right corner:<BR>
 <img src="/assets/images/ForkCode.png" style="border:1px solid black" ><BR><BR>
@@ -29,7 +33,7 @@ cd o-fish-web
     Track changes from the original repo:
 </p>
 <code>
-git remote add --track main upstream https://github.com/WildAid/o-fish-web.git<BR>
+git remote add --track main upstream https://github.com/WildAid/o-fish-web.git<BR><BR>
 git fetch upstream
 </code>
 <p>
@@ -42,22 +46,22 @@ git checkout -b fix_issue_12345 upstream/main
     Code your fix and <a href="/build">build the O-FISH application</a> to test that it works.
 </p>
 <p>
-    Once you verify the issue is fixed, you will need to submit your edits to your fork's branch, commit, and push, e.g.:
+    Once you verify the issue is fixed, you will need to submit your edits to your fork's branch, commit, and push. Make sure your commit message includes which issue(s) will be fixed. For example:
 </p>
 <code>
-git add .
-git commit -m 'fixing issue 12345'
+git add .<BR><BR>
+git commit -m 'Adding a widget to fix issues #12345 and #100'<BR><BR>
 git push -u origin fix_issue_12345
 </code>
 <p>
-    Create a pull request as the output instructs by following the instructions given in the output from the previous command:
+Create a pull request by following the instructions and using the URL given in the output from the previous command:
 </p>
 <code>
-remote: Create a pull request for 'fix_issue_12345' on GitHub by visiting:
-remote:      https://github.com/my-github-name/o-fish-web/pull/new/fix_issue_12345    
+remote: Create a pull request for 'fix_issue_12345' on GitHub by visiting:<BR>
+remote:      https://github.com/my-github-name/o-fish-web/pull/new/fix_issue_12345
 </code>
 <p>
-    A developer will review your code, and once the code is ready it will be merged in.
+    Within 3 busines days, a developer will review your code, and once the code is ready it will be merged in.
 </p>
 <p>
     If you have any questions, check out the <a href="https://developer.mongodb.com/community/forums/tag/o-fish/">MongoDB Community Forum posts with the O-FISH tag or create a new post</a>.
