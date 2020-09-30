@@ -6,13 +6,17 @@
 Fixes #
 
 <!--- Optional: Please replce the whitespace with an `x` in any boxes that apply or use the 'Preview' writing tab to check the appropriate boxes: -->
-- [ ] I have read the **CONTRIBUTING** document.
+- [ ] I have read the [contributor's guide](https://wildaid.github.io/contribute/index.html).
+- [ ] I linked an issue in the previous section
+- [ ] I have commented on the linked issue
+- [ ] I was assigned the linked issue
 - [ ] My change requires a change to the documentation.
-- [ ] I have updated the documentation accordingly.
-- [ ] I have tested the change to the best of my ability
+- [ ] My change adds new text and requires a change to translations.
+- [ ] I have updated the documentation.
+- [ ] I have tested the change to the best of my ability against the [sandbox](https://wildaid.github.io/contribute/sandbox.html) or a [local build](https://wildaid.github.io/build).
+- [ ] I could not test everything because... (explain below)
 - [ ] This change depends O-FISH Realm repository changes (explain below)
 - [ ] This change depends O-FISH Web repository changes (explain below)
-- [ ] I could not test everything because... (explain below)
 
 * **Optional: Add any explanations here** 
 
