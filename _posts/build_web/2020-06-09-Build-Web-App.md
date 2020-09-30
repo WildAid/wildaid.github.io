@@ -17,6 +17,13 @@ Build the web app:<BR>
  'wildaid' into the database field<BR><BR>
 1. On commandline, run:<BR>
    `npm install`<BR><BR>
+
+<H2>To build and host the web application locally - recommended for sandbox use and testing</H2>
+On commandline run:<BR>
+`npm start`<BR>
+The site will be hosted at http://localhost:3000 - you can skip the rest of this page and proceed to <A HREF="/web/2020/06/09/Test-Web-App.html">test your changes</A>.
+
+<H2>To build the web application for hosting in Realm - recommended for a more permanent instance, or repeated testing</H2>
 1. On commandline, run:<BR>
    `npm run build`<BR>
    When it completes, a "build" directory will be made, with the following files and "static" directory:<BR>

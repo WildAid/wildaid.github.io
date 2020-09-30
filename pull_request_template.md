@@ -5,7 +5,7 @@
 
 Fixes #
 
-Checklist:
+## Checklist:
 <!--- Please check off any appropriate boxes by replacing the whitespace with an `x` in the box -->
 - [ ] I have read the [contributor's guide](https://wildaid.github.io/contribute/index.html).
 - [ ] I linked an issue in the previous section

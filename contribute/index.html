@@ -34,10 +34,10 @@ In addition to labels that are self-explanatory - bug, enhancement, good first i
 <LI>Add a comment to the issue you want to work on, stating "I would like to work on this issue".</LI>
 <LI>Please do NOT work on an issue that is assigned to someone else.</LI>
 <LI>Please do NOT work on an issue that has another comment stating "I would like to work on this issue."</LI>
-<LI>Once you have commented on an issue you may begin work on it, if it is your only issue, it is not assigned to someone else, and nobody else has asked to work on it.</UL>
-<LI>Failure to follow these guidelines or <A HREF="https://www.mongodb.com/community-code-of-conduct">MongoDB's Community Code of Conduct</A> may result in an invalid PR.</LI>
-<LI>If you are having issues, you may tag the following people in the comments: <STRONG>@o-fish-wildaid @am-MongoDB @Sheeri</STRONG> - please do NOT tag random MongoDB employees.
-</LI></UL>
+<LI>Once you have commented on an issue you may begin work on it, if it is your only issue, it is not assigned to someone else, and nobody else has asked to work on it.</LI>
+<LI>If you are having issues, you may tag the following people in the comments: <STRONG>@o-fish-wildaid @am-MongoDB @Sheeri</STRONG> - please do NOT tag random MongoDB employees.</LI>
+<LI><STRONG>Failure to follow these guidelines or <A HREF="https://www.mongodb.com/community-code-of-conduct">MongoDB's Community Code of Conduct</A> may result in an invalid PR.</STRONG></LI>
+</UL>
 
 <H2>Get the code, build, test, and submit a PR</H2>
 <p>
@@ -67,7 +67,7 @@ git fetch upstream
 git checkout -b fix_issue_12345 upstream/main
 </code>
 <p>
-    Code your fix and <a href="/build">build the O-FISH application</a> to test that it works.
+Code your fix and build the O-FISH application (<A HREF="/android/2020/06/11/Build-Android.html">Android</A>, <A HREF="/ios/2020/06/11/Build-iOS.html">iOS</A>, <A HREF="/web/2020/06/09/Build-Web-App.html">web</A>) to test that it works. You may want to test against the <A HREF='sandbox.html'>sandbox</a> or <A HREF='/build'>build your own foundation</A>.
 </p>
 <p>
     Once you verify the issue is fixed, you will need to submit your edits to your fork's branch, commit, and push. Make sure your commit message includes which issue(s) will be fixed. For example:
@@ -85,9 +85,9 @@ remote: Create a pull request for 'fix_issue_12345' on GitHub by visiting:<BR>
 remote:      https://github.com/my-github-name/o-fish-web/pull/new/fix_issue_12345
 </code>
 <p>
-Create a pull request by following the instructions and using the URL from your output.
+Create a pull request by visiting the github URL from your output to the `git push` command.
 <p>
-    Within 3 busines days, a developer will review your code, and once the code is ready it will be merged in.
+    Within 3 business days, a developer will review your code, and once the code is ready it will be merged in.
 </p>
 <p>
     If you have any questions, check out the <a href="https://developer.mongodb.com/community/forums/tag/o-fish/">MongoDB Community Forum posts with the O-FISH tag or create a new post</a>.
