@@ -1,23 +1,35 @@
+ADD A Tl;dr get started quickly section, e.g. avoid needs own isntance, etc
+"rules of engagement" 72h, don't work on an issue unless ....
 ---
 layout: default
 title: Contributing to O-FISH
 nav_order: 60
 ---
-<h1>{{ page.title }}</h1>
-<p>
-    If you want to contribute to the O-FISH application, find an issue to solve:<br>
+<h1>{{ page.title }}</h1>a
+
+<H2>Get started quickly:</H2>
+<UL><LI>Find an issue and comment on it, saying you want to work on it.</LI>
+<LI>You may start work immediately IF there are no other commenters wanting to work on it</LI>
+<LI>Work on one issue at a time; we wll not assign more than one issue per person during hacktoberfest</LI>
+<LI>Please comment every 72 hours (3 days) on an issue or we will consider it abandoned.</LI>
+<LI>Issues labeled "needs own instance" require your own <A HREF="/build">infrastructure build</A>, if you want a quick issue avoid this label.</LI>
+<LI>Repos:
         <ol>
             <li><a href="https://github.com/WildAid/o-fish-android/issues">Android mobile app issues</a></li>
             <li><a href="https://github.com/WildAid/o-fish-ios/issues">iOS mobile app issues</a></li>
             <li><a href="https://github.com/WildAid/o-fish-web/issues">React web app issues</a></li>
             <li><a href="https://github.com/WildAid/o-fish-realm/issues">Realm backend</a></li>
+            <li><a href="https://github.com/WildAid/wildaid.github.io/issues">Documentation (including this page!)</a></li>
         </ol>
+</UL>
 </p>
+<H2>Special Issue Labels</H2>
 In addition to labels that are self-explanatory - bug, enhancement, good first issue, hacktoberfest - there are some issue labels that need explanation:
 <UL><LI><em>needs own instance</em> - These issues require the developer to <A HREF="/build">build their own instance of the infrastructure.</a> They are issues that involve needing 'super powers' or infrastructure changes, such as changes involving a global administrator or changes to indexes or Realm functions. Building an instance is free, but does take some time to go through the <A HREF="/build">detailed instructions</A>.</LI>
 <LI><em>days: x</em> - This is an estimate of how much developer time this issue will need. 0.25 means about 2 hours, 0.5 means 4 hours, 1 day is 8 hours, etc.</LI>
 </UL>
-To work on an issue:
+
+<H2>To work on an issue:
 <UL>
 <LI><UL><LI>Please only work on one issue at a time. We will not be assigning more than one issue, to ensure that everyone that wants to participate, can.</LI>
 <LI>Add a comment to the issue you want to work on, stating "I would like to work on this issue".</LI>
