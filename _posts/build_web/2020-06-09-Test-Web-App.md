@@ -17,7 +17,7 @@ site: build
 <img src="/assets/images/Charts_Not_Working.png" style="border:1px solid black" width="100%"><BR><BR>
 1. Search for “Mia” and you should see some results with fuzzy matching. Click "See all results for mia".<BR>
 <img src="/assets/images/Search_Mia.png" style="border:1px solid black" width="100%"><BR><BR>
-1. Click "see all results" for "Boardings"
+1. Click "See all" for "Boardings"
 <img src="/assets/images/Search_Results.png" style="border:1px solid black" width="100%"><BR><BR>
 1. You should see a records from the sample data<BR>
  Click "Filter" and then "Red" under "Risk":
@@ -27,11 +27,10 @@ site: build
 
 Huzzah! Your web application connects to your Realm data!
 
-From here, you can (coming soon):<BR><BR>
+From here, you can:<BR><BR>
 
-Build the Android app<BR><BR>
-Build the iOS app<BR><BR>
-Look into the functions and triggers<BR><BR>
-Create Charts and add them into the web interface<BR><BR>
+<A HREF="/android/2020/06/11/Build-Android.html">Build the Android app</A><BR><BR>
+<A HREF="/ios/2020/06/11/Build-iOS.html">Build the iOS app</A><BR><BR>
+<A HREF="/charts/2020/06/11/Build-Charts.html">Create Charts and add them into the web interface</A><BR><BR>
 
 

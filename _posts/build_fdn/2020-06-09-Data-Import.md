@@ -11,8 +11,8 @@ Now that you've created your Atlas database, import the sample dataset using the
 1. Get the sample data
    1.  Get the code from <A HREF="https://github.com/WildAid/o-fish-realm" target="_blank">https://github.com/WildAid/o-fish-realm</A><BR>
    `git clone https://github.com/WildAid/o-fish-realm.git`<BR>OR<BR><A HREF="https://github.com/WildAid/o-fish-realm/archive/main.zip">Download and extract the code</A><BR><BR>
-   1. Go into the o-fish-realm directory, "o-fish-realm" if you did a git clone in the previous step, or "o-fish-realm-main" if you downloaded and extracted the code. The directory should have 4 items in it:<BR>
-`LICENSE README.md WildAidDemo WildAidSampleBackup`<BR>
+   1. Go into the o-fish-realm directory, "o-fish-realm" if you did a git clone in the previous step, or "o-fish-realm-main" if you downloaded and extracted the code. The directory should have at least these 3 items:<BR>
+`README.md WildAidDemo WildAidSampleBackup`<BR>
 
    1. Note the path to the directory WildAidSampleBackup. Put it in the "Path to sample data" section of the template. <BR>
 Example: `/Users/sheeri/o-fish-realm/WildAidSampleBackup`<BR><BR>
