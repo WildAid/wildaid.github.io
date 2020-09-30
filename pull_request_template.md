@@ -5,7 +5,7 @@
 
 Fixes #
 
-<!--- Optional: Please put an `x` in any boxes that apply: -->
+<!--- Optional: Please replace the whitespace with an `x` in any boxes that apply: -->
 - [ ] I have read the **CONTRIBUTING** document.
 - [ ] My change requires a change to the documentation.
 - [ ] I have updated the documentation accordingly.
