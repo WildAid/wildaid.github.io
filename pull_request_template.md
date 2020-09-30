@@ -1,6 +1,5 @@
 ## Related Issue
 <!--- If suggesting a new feature or change, please discuss it in an issue first -->
-<!--- If fixing a bug, there should be an issue describing it with steps to reproduce -->
 <!--- Please link to the issue by adding the issue number after the #: -->
 
 Fixes #
@@ -15,9 +14,7 @@ Fixes #
 
 Optional items:
 <!--- Please check off any appropriate boxes by replacing the whitespace with an `x` in the box -->
-- [ ] My change requires a change to the documentation.
 - [ ] My change adds new text and requires a change to translations.
-- [ ] I have updated the documentation.
 - [ ] I was not able to test... (explain below, e.g. you did not have permissions to test a specific feature)
 - [ ] This change depends O-FISH Realm repository changes (explain below)
 - [ ] This change depends O-FISH Web repository changes (explain below)
