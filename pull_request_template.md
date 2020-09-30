@@ -5,7 +5,7 @@
 
 Fixes #
 
-<!--- Optional: Please replce the whitespace with an `x` in any boxes that apply or use the 'Preview' writing tab to check the appropriate boxes: -->
+<!--- Optional: Please replace the whitespace with an `x` in any boxes that apply or use the 'Preview' writing tab to check the appropriate boxes: -->
 - [ ] I have read the **CONTRIBUTING** document.
 - [ ] My change requires a change to the documentation.
 - [ ] I have updated the documentation accordingly.
