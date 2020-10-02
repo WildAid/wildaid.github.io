@@ -22,5 +22,5 @@ http://localhost:4000<BR>
 
 ## Style guide
 
-The style guide includes notes on accessibility, and can be seen in the `style` directory.
+The style guide includes notes on accessibility, and can be seen in the [style](https://wildaid.github.io/style) directory.
 
