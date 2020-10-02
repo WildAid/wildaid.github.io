@@ -12,11 +12,15 @@ This repo contains the documentation for end users and developers of all the O-F
 
 This is a Github Pages site that uses Jekyll. You will need to [install Jekyll](https://jekyllrb.com/docs/installation/).
 
-## Building and running the app
+## Building and testing the documentation
 
 To build the documentation locally, navigate to the publishing source (where this README is) and run:
 `bundle exec jekyll serve`<BR>
 
 You can see the local site at:<BR>
 http://localhost:4000<BR>
+
+## Style guide
+
+The style guide includes notes on accessibility, and can be seen in the `style` directory.
 
