@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<h1>O-FISH Documentation Style Guide</h1>
+
+This is the style guide for the O-FISH App Documentation. 
+
+	<ul class="posts">
+{% assign sortedPosts = site.posts | reverse %}
+	  {% for post in sortedPosts %}
+            {% if post.categories contains 'style' %}
+	    <li><span>» <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+            {% endif %}
+	  {% endfor %}
+<BR>
+
