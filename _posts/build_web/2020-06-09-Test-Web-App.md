@@ -14,16 +14,16 @@ site: build
  The Realm user was created in the Realm<BR>
  The Realm user is in a document the wildaid.User collection and the Realm ID is correct<BR><BR>
 1. Charts won’t work, this is expected<BR>
-<img src="/assets/images/Charts_Not_Working.png" style="border:1px solid black" width="100%"><BR><BR>
+<img alt="charts not working" src="/assets/images/Charts_Not_Working.png" style="border:1px solid black" width="100%"><BR><BR>
 1. Search for “Mia” and you should see some results with fuzzy matching. Click "See all results for mia".<BR>
-<img src="/assets/images/Search_Mia.png" style="border:1px solid black" width="100%"><BR><BR>
+<img  alt="For checking all results" src="/assets/images/Search_Mia.png" style="border:1px solid black" width="100%"><BR><BR>
 1. Click "See all" for "Boardings"
-<img src="/assets/images/Search_Results.png" style="border:1px solid black" width="100%"><BR><BR>
+<img  alt="All results for Boardings" src="/assets/images/Search_Results.png" style="border:1px solid black" width="100%"><BR><BR>
 1. You should see a records from the sample data<BR>
  Click "Filter" and then "Red" under "Risk":
-<img src="/assets/images/Filter.png" style="border:1px solid black" width="100%"><BR><BR>
+<img  alt="Intructions for Red Risks" src="/assets/images/Filter.png" style="border:1px solid black" width="100%"><BR><BR>
 1. You should see only records with red risk levels:
-<img src="/assets/images/RedBoardings.png" style="border:1px solid black" width="100%"><BR><BR>
+<img  alt="Records with red risks" src="/assets/images/RedBoardings.png" style="border:1px solid black" width="100%"><BR><BR>
 
 Huzzah! Your web application connects to your Realm data!
 
