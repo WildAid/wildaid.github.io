@@ -15,7 +15,7 @@ You have imported your Realm app!  Now, let's create a Realm user...
         <img alt="adding information for creating user" src="/assets/images/Realm_User_Details.png" style="border:1px solid black" width="100%"><BR><BR>
       1. Copy the Realm User ID and paste in the template under "Realm User ID"
         <img src="/assets/images/Copy_Realm_User_ID.png" alt="using realm id instructions" style="border:1px solid black" width="100%"><BR><BR>
-1. <A alt="insert new document link" HREF="https://docs.mongodb.com/manual/tutorial/insert-documents/">Insert a new document</A> to the wildaid database. You will be inserting into the User collection using Compass, mongo shell or code studio integration. <BR><BR>
+1. <A HREF="https://docs.mongodb.com/manual/tutorial/insert-documents/">Insert a new document</A> to the wildaid database. You will be inserting into the User collection using Compass, mongo shell or code studio integration. <BR><BR>
 The User collection does not exist, so you will need to create it in Compass. In mongoshell and your code studio integration, the collection is automatically created. <BR><BR>
 Set the email and realmUserID with the "App Admin user" and "Realm User ID", set the agency to "WildAid" (for testing) and first and last names as appropriate. Here's an example using mongoshell:
 <BR><BR>
