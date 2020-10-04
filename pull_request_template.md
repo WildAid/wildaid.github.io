@@ -11,6 +11,7 @@ Fixes #
 - [ ] I have commented on the linked issue
 - [ ] I was assigned the linked issue (not required)
 - [ ] I have tested the change to the best of my ability against the [sandbox](https://wildaid.github.io/contribute/sandbox.html) or a [local build](https://wildaid.github.io/build).
+- [ ] All my images have [appropriate alt tags](https://wildaid.github.io/style/2020/10/02/Alt-Text.html)
 
 Optional items:
 <!--- Please check off any appropriate boxes by replacing the whitespace with an `x` in the box -->
