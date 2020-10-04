@@ -19,7 +19,7 @@ Now it's time to import the Realm code!
 1. Do the import, confirm with 'y' when prompted to confirm changes. You will paste your Realm App ID into --app-id:<BR>
   `realm-cli import --strategy=replace --include-dependencies --app-id=REALM_APP_ID` <BR><BR>
 1. Verify the code got imported by going to the Realm App and clicking "Functions" on the left-hand side. You should see several functions, as below:
-  <img src="/assets/images/Functions.png" style="border:1px solid black" width="100%"><BR><BR>
+  <img alt="accessing functions and creating the realm app" src="/assets/images/Functions.png" style="border:1px solid black" width="100%"><BR><BR>
 
 
 You have successfully set up a Realm serverless application! You may get emails like "A Database Trigger has been Suspended", do not worry about that for now. <BR><BR>
