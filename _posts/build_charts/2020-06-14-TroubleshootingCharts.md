@@ -9,7 +9,7 @@ site: build
 At some point, your chart may not load. Here is a list of ways to troubleshoot the issue.<BR><BR>
 
 You may see a completely blank box where your chart is supposed to be, or you may see something like this:<BR>
-<img src="/assets/images/SadFaceChart.png" style="border:1px solid black" ><BR><BR>
+<img src="/assets/images/SadFaceChart.png" alt="Example of an error message - 'unable to retrieve data.'" style="border:1px solid black" ><BR><BR>
 
 If you see the "Last refresh failed. Retry?" text, the word "Retry" is a web link to the chart. You can look at that web URL to see if there is anything obvious as to why there is a problem - for example, your charts URL does not match the baseUrl for your charts.<BR><BR>
 
@@ -21,7 +21,7 @@ You will see an error like:<BR>
 You can see the full list of errors at <A HREF="https://dochub.mongodb.org/core/charts-embedding-error-codes">https://dochub.mongodb.org/core/charts-embedding-error-codes</A> of course. <BR><BR>Some common issues and their fixes are:<BR>
 1. `Error loading data for this chart (error code: 7). User filter is not allowed.`<BR>
 This usually means you did not put in the filter. Check the Embedding menu for the chart and make sure the "date" filter is available. If not, make sure to put the date in AND select the green SAVE button:
-<img src="/assets/images/SetDateFilter.png" style="border:1px solid black" width="100%"><BR><BR>
+<img src="/assets/images/SetDateFilter.png" alt="How to select the 'date' filter and save changes." style="border:1px solid black" width="100%"><BR><BR>
 
 1. `Error loading data for this chart (error code: 3). Embedding not enabled on this chart.`<BR>
 This usually means your baseUrl or chart code is incorrect.<BR><BR>
