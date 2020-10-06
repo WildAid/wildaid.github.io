@@ -37,15 +37,15 @@ The site will be hosted at http://localhost:3000 - you can skip the rest of this
 `static`<BR><BR>
 
 1. In the Realm UI in your browser, click on "Hosting" on the left-hand side under "MANAGE"<BR>
-<img alt="To click on Hosting" src="/assets/images/Hosting.png" style="border:1px solid black" width="70%"><BR><BR>
+<img alt="'Hosting' under 'Manage' is to be clicked" src="/assets/images/Hosting.png" style="border:1px solid black" width="70%"><BR><BR>
 1. You should see this page:
-<img alt="page image" src="/assets/images/Drag_Files_Here.png" style="border:1px solid black" width="100%"><BR><BR>
+<img alt="Hosting Page appears" src="/assets/images/Drag_Files_Here.png" style="border:1px solid black" width="100%"><BR><BR>
 1. Upload everything inside the build folder by dragging and dropping the files and static directory. The green UPLOAD FILES button does not support uploading a directory like the "static" directory. It is OK to overwrite existing files. When complete, it should look like this:<BR>
-<img alt="image after uploading all files" src="/assets/images/Files_Dragged.png" style="border:1px solid black" width="75%"><BR><BR>
+<img alt="Shows all the uploaded files in the build folder" src="/assets/images/Files_Dragged.png" style="border:1px solid black" width="75%"><BR><BR>
 1. Run Actions/Flush CDN Cache, click "Flush Cache" when prompted.<BR>
-<img alt="after clicking Run" src="/assets/images/Flushed_Cache.png" style="border:1px solid black" width="75%"><BR><BR>
+<img alt="How to click the 'Flush CDN Cache' when prompted" src="/assets/images/Flushed_Cache.png" style="border:1px solid black" width="75%"><BR><BR>
 1. Make note of the URL on the Hosting page, this is your website! Paste it to the "URL" field in the template<BR>
-<img alt="image of the Hosting Page" src="/assets/images/URL.png" style="border:1px solid black" width="75%"><BR><BR>
+<img alt="Where to place the URL in the template" src="/assets/images/URL.png" style="border:1px solid black" width="75%"><BR><BR>
 
 If you have a blue bar that says: "Your site is in the process of being created, which may take up to 15 minutes." then wait until that is gone before proceeding.
 
