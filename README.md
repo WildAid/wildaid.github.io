@@ -15,10 +15,13 @@ This is a Github Pages site that uses Jekyll. You will need to [install Jekyll](
 ## Building and testing the documentation
 
 To build the documentation locally, navigate to the publishing source (where this README is) and run:
-`bundle exec jekyll serve`<BR>
+`bundle exec jekyll serve`<BR><BR>
 
 You can see the local site at:<BR>
-http://localhost:4000<BR>
+http://localhost:4000<BR><BR>
+
+To test that all links work, and all images have alt-tags, and similar issues - run this from the top-level directory (where this README file is):<BR>
+`./script/test_images_links.sh` <BR><BR>
 
 ## Style guide
 
