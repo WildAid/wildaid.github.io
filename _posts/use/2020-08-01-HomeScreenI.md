@@ -27,5 +27,5 @@ To log out, click your avatar or name, and then click "Log Out" to be directed b
 # Pre-boarding Search
 <BR><BR>
 
-<img src="/assets/images/use/.png" width="50%" style="border:1px solid black"><BR><BR>
+<!-- <img src="/assets/images/use/.png" width="50%" style="border:1px solid black"><BR><BR> -->
 
