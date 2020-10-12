@@ -1,8 +1,7 @@
 name: O-FISH
 title: O-FISH Docs
 markdown: kramdown
-
 remote_theme: pmarsceill/just-the-docs
 theme: just-the-docs
 
-
+repository: wildaid/wildaid.github.io
