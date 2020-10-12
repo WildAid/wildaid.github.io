@@ -21,10 +21,10 @@ site: build
 1. Drag and drop the "date" field to the Groups section, and turn binning off:
 <img src="/assets/images/Date1.gif" alt="How to add date to the Group section" style="border:1px solid black" width="100%"><BR><BR>
 
-1. Customize the date field by selecting on "Customize" and then "date". Override the label and give it a capitalized first letter - "Date" - and add in the time:
+1. Customize the date field by selecting on "Customize" and then "date". Override the label and give it a capitalized first letter - "Date" - and add in the time - you can choose any format, this gif chooses "15:23":
 <img src="/assets/images/Date2.gif" alt="How to customize date and add time" style="border:1px solid black" width="100%"><BR><BR>
 
-1. Select "Encode" to go back to that section:
+1. Select "Encode" to go back to the encoding section:
 <img src="/assets/images/Encode.png" alt="" style="border:1px solid black" width="70%"><BR><BR>
 
 1. Drag the following fields to "Groups":<BR>
@@ -34,7 +34,7 @@ captain -> name<BR>
 inspection -> summary -> safetyLevel -> level<BR>
 <img src="/assets/images/Groups.gif" alt="How to group fields" style="border:1px solid black" width="100%"><BR><BR>
 
-1. Customize the labels of each of the fields you just dragged by selecting "Customize" and changing:<BR>
+1. Select "Customize" and "Label Override" to change the label name for the fields you added in the previous step:<BR>
 vessel.name - Vessel Name<BR>
 vessel.permitNumber - Permit #<BR>
 captain.name - Captain<BR>
