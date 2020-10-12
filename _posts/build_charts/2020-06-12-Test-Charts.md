@@ -8,15 +8,11 @@ site: build
 
 You have created and embedded a chart, so let's build and deploy the web application to see that everything worked.
 
-1. In the Realm UI in your browser, select "Hosting" on the left-hand side under "MANAGE"<BR>
-<img src="/assets/images/Hosting.png" alt="How to get to where Hosting is located" style="border:1px solid black" width="70%"><BR><BR>
-1. You should see this page:
-<img src="/assets/images/HostingWithFiles.png" alt="What the Hosting page looks like" style="border:1px solid black" width="100%"><BR><BR>
+{% include build_web.md %}
 
-1. Follow the <A HREF="/web/2020/06/09/Build-Web-App.html">build instructions starting at #5</a> to build and deploy the application.
+{% include login_web.md %}
 
-1. Paste the URL from the hosting page into your browser and login with your App admin username and App admin password.
+Test to make sure the chart you embedded actually works. If it is not working, there is a section on <A HREF="/charts/2020/06/14/TroubleshootingCharts.html">Troubleshooting Charts</a>.
 
-1. Watch as your new embedded charts load! Or, <A HREF="/charts/2020/06/14/TroubleshootingCharts.html">troubleshoot problems with Charts</A>.
-
+<HR>
 Create more charts in the next guide!

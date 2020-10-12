@@ -18,9 +18,11 @@ If that did not fix the issue, you need to find what the error actually is. To d
 You will see an error like:<BR>
 `Error loading data for this chart (error code: X). EXPLANATION HERE. See https://dochub.mongodb.org/core/charts-embedding-error-codes for details.`<BR><BR>
 
-You can see the full list of errors at <A HREF="https://dochub.mongodb.org/core/charts-embedding-error-codes">https://dochub.mongodb.org/core/charts-embedding-error-codes</A> of course. <BR><BR>Some common issues and their fixes are:<BR>
-1. `Error loading data for this chart (error code: 7). User filter is not allowed.`<BR>
-This usually means you did not put in the filter. Check the Embedding menu for the chart and make sure the "date" filter is available. If not, make sure to put the date in AND select the green SAVE button:
+You can see the full list of errors at <A HREF="https://dochub.mongodb.org/core/charts-embedding-error-codes">https://dochub.mongodb.org/core/charts-embedding-error-codes</A> <BR><BR>
+
+Some common issues and their fixes are:<BR>
+<A NAME="seven">1.</A> `Error loading data for this chart (error code: 7). User filter is not allowed.`<BR>
+This usually means you did not put in the filter. Check the Embedding menu for the chart and make sure the "date" and "agency" filters are available. If not, make sure to put in 'date' and 'agency' AND select the green SAVE button:
 <img src="/assets/images/SetDateFilter.png" alt="How to select the 'date' filter and save changes." style="border:1px solid black" width="100%"><BR><BR>
 
 1. `Error loading data for this chart (error code: 3). Embedding not enabled on this chart.`<BR>
@@ -30,6 +32,6 @@ This usually means your baseUrl or chart code is incorrect.<BR><BR>
 This usually means something's wrong with your Realm Sync and you should re-add the Authentication Provider <A HREF="/charts/2020/06/12/Embed-Boardings-List.html">starting with step 2 here.</a><BR><BR>
 
 1. `Error loading data for this chart (error code: 2). Chart not found.`<BR>
-This usually means your baseUrl or chart code is incorrect.<BR><BR>
+This usually means your baseUrl or chart code is incorrect. We have also seen it instead of <A HREF="#seven">error code 7</A>, so make sure the filters are set properly.<BR><BR>
 
 If you are still stuck, search or ask in the <a href="https://developer.mongodb.com/community/forums/tag/o-fish/">MongoDB Community Forum posts with the O-FISH tag</a>.
