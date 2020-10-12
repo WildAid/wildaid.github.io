@@ -20,6 +20,8 @@ To build the documentation locally, navigate to the publishing source (where thi
 You can see the local site at:<BR>
 http://localhost:4000<BR>
 
+To test that all links work, and all images have alt-tags, and similar issues - run this from the top-level directory (where this README file is):<BR>
+`./script/test_images_links.sh` <BR><BR>
 ## Style guide
 
 The style guide includes notes on accessibility, and can be seen in the [style](https://wildaid.github.io/style) directory.
