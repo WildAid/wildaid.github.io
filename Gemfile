@@ -9,6 +9,7 @@ source "https://rubygems.org"
 # Happy Jekylling!
 # To upgrade, run `bundle update github-pages`.
 gem "github-pages", group: :jekyll_plugins
+gem "html-proofer"
 gem "just-the-docs"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
