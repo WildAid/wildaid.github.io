@@ -1,25 +1,10 @@
-name: Jekyll site CI with docker
-
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
-
+on: pull_request
+name: Pull Request
 jobs:
-  build:
-
+  test:
+    name: Run tests
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v2
-    - name: Build the site in the jekyll/builder container
-      run: |
-        docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
-    - name: Check HTML
-      uses: chabad360/htmlproofer@master
-      with:
-       directory: "./public"
-       arguments: --allow-hash-href  --empty-alt-ignore --check_img_http
+    - uses: actions/checkout@master
+    - name: Test
+      uses: skx/github-action-tester@master
