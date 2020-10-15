@@ -1,5 +1,3 @@
-github:
-  workspace:/Users/sheeri/github/wildaid.github.io
 name: Jekyll site CI link checker
 
 on:
