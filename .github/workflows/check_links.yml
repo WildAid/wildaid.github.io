@@ -13,8 +13,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: fake to run on my machine
-      run:  apt-get update && apt-get install docker.io -y
     - name: Build the site in the jekyll/builder container
       run: |
         docker run \
