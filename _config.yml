@@ -3,6 +3,7 @@ title: O-FISH Docs
 markdown: kramdown
 remote_theme: pmarsceill/just-the-docs
 theme: just-the-docs
+url: /
 baseurl: .
 
 repository: wildaid/wildaid.github.io
