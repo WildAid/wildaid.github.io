@@ -24,5 +24,5 @@ To test that all links work, and all images have alt-tags, and similar issues - 
 `./script/test_images_links.sh` <BR><BR>
 
 ## Style guide
-
+<BR><BR>
 The style guide includes notes on accessibility, and can be seen in the [style](https://wildaid.github.io/style) directory.

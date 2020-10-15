@@ -1,4 +1,6 @@
-name: Jekyll site CI with docker
+github:
+  workspace:/Users/sheeri/github/wildaid.github.io
+name: Jekyll site CI link checker
 
 on:
   push:
@@ -13,13 +15,15 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: fake to run on my machine
+      run:  apt-get update && apt-get install docker.io -y
     - name: Build the site in the jekyll/builder container
       run: |
         docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+        -v ${{ github.workspace }}:/srv/jekyll \
+        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build"
     - name: Check HTML
       uses: chabad360/htmlproofer@master
       with:
-       directory: "./_site"
+       directory: "${{ github.workspace }}/_site"
        arguments: --allow-hash-href  --empty-alt-ignore --check_img_http
