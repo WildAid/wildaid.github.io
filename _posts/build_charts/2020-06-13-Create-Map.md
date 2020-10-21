@@ -7,7 +7,7 @@ site: build
 ---
 
 On this page, you will make the map:
-<img src="/assets/images/Map.png" alt="an example of a map chart with coloured markers for coordiantes" style="border:1px solid black" width="100%"><BR><BR>
+<img src="/assets/images/Map.png" alt="an example of a map chart with coloured markers for coordinates" style="border:1px solid black" width="100%"><BR><BR>
 
 1. On the Charts Dashboard, select "Add Chart"<BR>
    <img src="/assets/images/AddChart.png" alt="location of the button to click to add chart" style="border:1px solid black" width="100%"><BR><BR>
