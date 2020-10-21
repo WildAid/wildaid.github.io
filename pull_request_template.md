@@ -8,9 +8,11 @@ Fixes #
 <!--- Please check off any appropriate boxes by replacing the whitespace with an `x` in the box -->
 - [ ] I have read the [contributor's guide](https://wildaid.github.io/contribute/index.html).
 - [ ] I linked an issue in the previous section
-- [ ] I have commented on the linked issue
-- [ ] I was assigned the linked issue (not required)
+- [ ] I was assigned the linked issue or commented on it to be assigned (not required)
 - [ ] I have tested the change to the best of my ability against the [sandbox](https://bit.ly/ofishsandbox) or a [local build](https://wildaid.github.io/build).
+- [ ] I ran script/test_images_links.sh from the top-level directory (where the README file lives) and the output is:
+
+
 
 * **Optional: Add any explanations here** 
 

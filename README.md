@@ -23,6 +23,8 @@ http://localhost:4000<BR><BR>
 To test that all links work, and all images have alt-tags, and similar issues - run this from the top-level directory (where this README file is):<BR>
 `./script/test_images_links.sh` <BR><BR>
 
+You must have [htmlproofer](https://github.com/gjtorikian/html-proofer) installed for this to work properly.
+
 ## Style guide
 <BR><BR>
 The style guide includes notes on accessibility, and can be seen in the [style](https://wildaid.github.io/style) directory.
