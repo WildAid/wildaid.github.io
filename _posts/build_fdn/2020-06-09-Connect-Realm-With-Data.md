@@ -18,25 +18,32 @@ You have imported your Realm app!  Now, let's create a Realm user...
 1. <A HREF="https://docs.mongodb.com/manual/tutorial/insert-documents/">Insert a new document</A> to the wildaid database. You will be inserting into the User collection using Compass, mongo shell or code studio integration. <BR><BR>
 The User collection does not exist, so you will need to create it in Compass. In mongoshell and your code studio integration, the collection is automatically created. <BR><BR>
 Set the email and realmUserID with the "App Admin user" and "Realm User ID", set the agency to "WildAid" (for testing) and first and last names as appropriate. Here's an example using mongoshell:
-<BR><BR>
-`$ mongo "mongodb+srv://ofish-xxxx.mongodb.net/wildaid" --username admin`<BR>
-`use wildaid;`<BR>
-`db.User.insertOne(`<BR>
-`{"email":"sheeri.cabral@mongodb.com",`<BR>
-`"name": {"first":"Sheeri", "last":"Cabral"},`<BR>
-`"realmUserID": "xxxxxxxxxxxxxxxxxxxxx",`<BR>
-`"agency": {"name":"WildAid", "admin":false},`<BR>
-`"global": {"admin":true}`<BR>
-`})`<BR>
-and here's a template with empty fields for copy/pasting:<BR>
-`use wildaid;`<BR>
-`db.User.insertOne(`<BR>
-`"email":"",`<BR>
-`"name": {"first":"", "last":""},`<BR>
-`"realmUserID": "",`<BR>
-`"agency": {"name":"", "admin":false},`<BR>
-`"global": {"admin":true}`<BR>
-`})`
 
+```bash
+$ mongo "mongodb+srv://ofish-xxxx.mongodb.net/wildaid" --username admin
+```
+
+```javascript
+use wildaid;
+```
+```javascript
+db.User.insertOne(
+  {"email":"sheeri.cabral@mongodb.com",
+  "name": {"first":"Sheeri", "last":"Cabral"},
+  "realmUserID": "xxxxxxxxxxxxxxxxxxxxx",
+  "agency": {"name":"WildAid", "admin":false},
+  "global": {"admin":true}
+})
+```
+and here's a template with empty fields for copy/pasting:<BR>
+```javascript
+db.User.insertOne(
+  "email":"",
+  "name": {"first":"", "last":""},
+  "realmUserID": "",
+  "agency": {"name":"", "admin":false},
+  "global": {"admin":true}
+})
+```
 
 Fantastic!
