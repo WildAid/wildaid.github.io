@@ -38,8 +38,7 @@ And you should see the total number of boarding reports in the window. Select "S
 
 1. Select "Close" to close the "Embed Chart" window.<BR><BR>
 
-1. Paste the Chart ID into your web application's src/config.js file under "boardings-count-chart".<BR><BR><BR><BR>
-
+1. Paste the Chart ID into your web application's src/config.js file under "boardings-count-chart".<BR><BR>
 
 1. Now let's create the "Violations" number. On the Charts Dashboard, mouse over the "Boardings" chart and select the three dots in the corner, then select "Duplicate Chart":<BR><BR>
 <img src="/assets/images/DuplicateBoardings.png" alt="How to create &quotDuplicate Charts;&quot;" style="border:1px solid black" width="70%"><BR><BR>
@@ -48,16 +47,13 @@ And you should see the total number of boarding reports in the window. Select "S
 <img src="/assets/images/ViolationsTitle.png" alt="" style="border:1px solid black" width="100%"><BR><BR>
 
 1. To filter for records that contain citations or warnings, select "Filter":<BR>
-<img src="/assets/images/AddChartFilter.png" alt="" style="border:1px solid black" width="100%"><BR><BR>
-
-Drag inspection -> summary -> violations -> disposition to "+ filter":<BR>
-<img src="/assets/images/DragDisposition.png" alt="How to add &quot;disposition&quot; under Chart Filters" style="border:1px solid black" width="100%"><BR><BR>
-
-Select only Citation and Warning:<BR>
-<img src="/assets/images/ChooseCitationWarning.png" alt="" style="border:1px solid black" width="100%"><BR><BR>
-
-And you should see the total number of boarding reports with violations in the window. Select "Save and Close" in the upper right.
-<img src="/assets/images/CloseSave.png" alt="Total number of boarding reports with violations" style="border:1px solid black" width="100%"><BR><BR>
+    <img src="/assets/images/AddChartFilter.png" alt="" style="border:1px solid black" width="100%"><BR><BR>
+    Drag inspection -> summary -> violations -> disposition to "+ filter":<BR>
+    <img src="/assets/images/DragDisposition.png" alt="How to add &quot;disposition&quot; under Chart Filters" style="border:1px solid black" width="100%"><BR><BR>
+    Select only Citation and Warning:<BR>
+    <img src="/assets/images/ChooseCitationWarning.png" alt="" style="border:1px solid black" width="100%"><BR><BR>
+    And you should see the total number of boarding reports with violations in the window. Select "Save and Close" in the upper right.
+    <img src="/assets/images/CloseSave.png" alt="Total number of boarding reports with violations" style="border:1px solid black" width="100%"><BR><BR>
 
 1. On your dashboard, mouse over the "Violations" chart until you see the ellipses. Select the ellipses and select "Embed Chart":
 <img src="/assets/images/ClickBCEmbedMenu.png" alt="How to select &quot;Embed Chart&quot; for Violations chart" style="border:1px solid black" width="100%"><BR><BR>

@@ -8,7 +8,7 @@ site: build
 
 The first step is to set up the Atlas database - this is the foundation data layer that serve data to the mobile apps, charts, and web apps.
 
-> Throughout this guide, you will need to keep track of a lot of information.
+> Throughout this guide, you will need to keep track of a lot of information.<BR>
 > Copy and paste the <A HREF="/build/#template" target="_blank">template</A> into a scratch pad, to keep track of it all.
 
 1. Login to <A HREF="https://cloud.mongodb.com" target="_blank">cloud.mongodb.com</A> - create a free login if needed.<BR><BR>
