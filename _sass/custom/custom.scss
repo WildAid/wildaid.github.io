@@ -1,3 +1,19 @@
 .background {
     background-color:rgba(0, 0, 0, 0.0470588);
 }
+
+// tripple-tick code examples "```bash"
+li [class^="language-"].highlighter-rouge {
+    margin-bottom: 1.5em;
+}
+
+// quotes ">"
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+}
+blockquote p {
+    display: inline;
+}
