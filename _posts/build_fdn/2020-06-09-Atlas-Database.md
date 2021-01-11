@@ -23,7 +23,7 @@ and click the green checkmark.<BR><BR>
 <img src="/assets/images/Projects.png" style="border:1px solid black" width="50%" alt="From nav-bar select Projects"><BR><BR>
    1. Click your project name (example: WildAid)
    1. Click Build a Cluster
-   1. Choose a path - choose the FREE Shared Clusters on the left: 
+   1. Choose a path - choose the **FREE** Shared Clusters on the right: 
 <img src="/assets/images/Atlas_Choose_Path.png" style="border:1px solid black" width="100%" alt="Select your plan"><BR><BR>
    1. Choose Cloud Provider and Region
 <img src="/assets/images/Atlas_Cloud_Region.png" style="border:1px solid black" width="100%" alt="aws has selected for cloud provider and region"><BR><BR>
