@@ -47,6 +47,6 @@ On this page, you will make the map:
 
 1. Select "Close" to close the "Embed Chart" window.<BR><BR>
 
-1. Paste the Chart ID into your web application's src/config.js file under "boardings".<BR><BR><BR><BR>
+1. Paste the Chart ID into your web application's src/config.js file under "boardings".<BR><BR>
 
-That's it; you've created all the charts!
+That's it! You've created all the charts!

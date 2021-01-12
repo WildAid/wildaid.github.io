@@ -8,6 +8,9 @@ site: build
 
 The first step is to set up the Atlas database - this is the foundation data layer that serve data to the mobile apps, charts, and web apps.
 
+> Throughout this guide, you will need to keep track of a lot of information.<BR>
+> Copy and paste the <A HREF="/build/#template" target="_blank">template</A> into a scratch pad, to keep track of it all.
+
 1. Login to <A HREF="https://cloud.mongodb.com" target="_blank">cloud.mongodb.com</A> - create a free login if needed.<BR><BR>
 1. If needed, create an organization (example: Code For Good). <BR><BR>
 1. Create a project (example: WildAid). Fill in the "Project Name" on the <A HREF="/build">template</A> that you copied to your scratchpad. Case sensitivity matters!<BR><BR>
@@ -23,7 +26,7 @@ and click the green checkmark.<BR><BR>
 <img src="/assets/images/Projects.png" style="border:1px solid black" width="50%" alt="From nav-bar select Projects"><BR><BR>
    1. Click your project name (example: WildAid)
    1. Click Build a Cluster
-   1. Choose a path - choose the FREE Shared Clusters on the left: 
+   1. Choose a path - choose the **FREE** Shared Clusters on the right: 
 <img src="/assets/images/Atlas_Choose_Path.png" style="border:1px solid black" width="100%" alt="Select your plan"><BR><BR>
    1. Choose Cloud Provider and Region
 <img src="/assets/images/Atlas_Cloud_Region.png" style="border:1px solid black" width="100%" alt="aws has selected for cloud provider and region"><BR><BR>
