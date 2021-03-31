@@ -8,6 +8,8 @@ Developers are expected to follow the <A HREF="https://www.mongodb.com/community
 
 This repo contains the documentation for end users and developers of all the O-FISH applications and codebases: [iOS](https://github.com/WildAid/o-fish-ios), [Android](https://github.com/WildAid/o-fish-android), [Web](https://github.com/WildAid/o-fish-web) and [Realm](https://github.com/WildAid/o-fish-realm). The documentation itself lives at [https://wildaid.github.io](https://wildaid.github.io).
 
+The details behind the data architecture, schema, and partitioning strategy are described in [Realm Data and Partitioning Strategy Behind the WildAid O-FISH Mobile Apps](https://developer.mongodb.com/how-to/realm-data-architecture-ofish-app).
+
 ## Prerequisites
 
 This is a Github Pages site that uses Jekyll. You will need to [install Jekyll](https://jekyllrb.com/docs/installation/).
